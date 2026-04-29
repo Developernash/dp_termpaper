@@ -1,0 +1,45 @@
+---
+name: dcegm
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pytest
+  - pytest-cov
+  - pytest-xdist
+
+  # Package dependencies
+  - numpy
+  - scipy
+  - numba
+  - pandas
+  - jax
+  - matplotlib
+  - statsmodels
+  - openpyxl
+
+  # Misc
+  - black
+  - nb_black
+  - flake8
+  - jupyterlab
+  - matplotlib
+  - pdbpp
+  - pre-commit
+  - setuptools_scm
+  - toml
+
+  # Conda
+  - anaconda-client
+  - conda-build
+  - conda-verify
+  - tox-conda
+  - pip:
+      - blackcellmagic
+      - furo
+
+      # Development dependencies
+      - git+https://github.com/OpenSourceEconomics/upper-envelope.git
+      - git+https://github.com/OpenSourceEconomics/dcegm.git@10ddc4f98040ac4804f2c207c2768f4e72aacfea#egg=dcegm
