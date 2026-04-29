@@ -4,8 +4,8 @@ import numpy as np
 import statsmodels.api as sm
 
 import sys
-sys.path.insert(0,"/Users/frederiklarsen/dcegm/Speciale")
-
+sys.path.insert(0,"C:\\Users\\Nashw\\Studiet\\polit\\2. Semester\\DynamicProgramming\\Thesis\\dp_termpaper")
+out = "C:\\Users\\Nashw\\Studiet\\polit\\2. Semester\\DynamicProgramming\\Thesis\\dp_termpaper\\results\\first_stage estimation"
 
 # estimate old age pension as function of income
 # k1 = options["model_params"]["supp_threshold"]        # e.g. 0.793 → 79 300 kr
