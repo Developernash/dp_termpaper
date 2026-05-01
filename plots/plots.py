@@ -1,11 +1,9 @@
-import os
-import matplotlib.pyplot as plt
+import project_paths as pp
+from project_imports import *
 
 def plot_empirical_vs_simulated_with_ci(
     edu,
     moments_sim,
-    out_base_dir,
-    out_subfolder,
     var_labels=None,
     var_scales=None,
     ylims=None,
@@ -16,9 +14,6 @@ def plot_empirical_vs_simulated_with_ci(
     if var_labels is None: var_labels = {}
     if var_scales is None: var_scales = {}
     if ylims      is None: ylims      = {}
-
-    out_dir = os.path.join(out_base_dir, out_subfolder)
-    os.makedirs(out_dir, exist_ok=True)
 
     # only plot vars present in both
     plot_vars = [v for v in edu.columns if v != "age" and v in moments_sim.columns]
@@ -57,8 +52,6 @@ def plot_empirical_vs_simulated_with_ci(
         plt.tight_layout()
 
         # save
-        fn = f"{var}_over_age_{out_subfolder}.png"
-        path = os.path.join(out_dir, fn)
-        fig.savefig(path, dpi=dpi, bbox_inches="tight")
-        print(f"Saved {path}")
+        fig.savefig(pp.SIM_PLOTS_DIR + f"/{var}_over_age.png", dpi=dpi, bbox_inches="tight")
+        print(f"Saved {pp.SIM_PLOTS_DIR + f'/ {var}_over_age.png'}")
         plt.show()

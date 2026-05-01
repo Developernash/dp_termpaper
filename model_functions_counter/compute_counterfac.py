@@ -1,7 +1,4 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-import numpy as np
-import os
+from project_imports import *
 
 def compute_counterfactual_diff(df_base, df_cf, metrics, age_col='age'):
     """
@@ -144,7 +141,7 @@ def plot_metrics_individual(
     figsize=(10, 5),
     legend_y_offset=-0.15,
     savefig=True,
-    out_dir="figures",
+    out_dir="figures"
 ):
     if edus is None:
         edus = df_diff['edu'].unique()

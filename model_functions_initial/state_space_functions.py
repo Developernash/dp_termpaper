@@ -1,6 +1,4 @@
-import jax.numpy as jnp
-from typing import Dict
-import numpy as np
+from project_imports import *
 
 def next_period_experience(period, lagged_choice, experience, options):
     """Calculate next period's experience based on current period's experience and last period labor choice."""

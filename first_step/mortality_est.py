@@ -3,10 +3,9 @@ import pandas as pd
 import numpy as np
 import jax.numpy as jnp
 from scipy.optimize import minimize
+import project_paths as pp
 
-DATA_DIR    = "/Users/frederiklarsen/Data"
-Mortality   = os.path.join(DATA_DIR, "mortality.xlsx")
-
+Mortality   = pp.DATA_DIR / "mortality.xlsx"
 
 df = pd.read_excel(Mortality, sheet_name="DOD")
 ages  = df["age"].values     # e.g. 35,36,…,85
@@ -40,7 +39,7 @@ alpha1_hat, alpha2_hat = res.x
 print(f"MLE estimates: alpha1 = {alpha1_hat:.6f}, alpha2 = {alpha2_hat:.6f}")
 
 #print as txt file
-np.savetxt("/Users/frederiklarsen/dcegm/Speciale/first_step/mortality_params.txt", [alpha1_hat, alpha2_hat])
+np.savetxt(pp.STRUCTURAL_RESULTS_DIR / "mortality_params.txt", [alpha1_hat, alpha2_hat])
 
 #plot predicted vs actual
 # plt.figure(figsize=(5, 3))

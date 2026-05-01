@@ -1,6 +1,7 @@
 #system imports
 from pathlib import Path
 from typing import Tuple
+from typing import Dict
 import os
 import sys
 
@@ -10,7 +11,9 @@ import numpy as np
 import jax
 import jax.numpy as jnp
 import matplotlib.pyplot as plt
+from matplotlib.ticker import ScalarFormatter
 import seaborn as sns
+
 
 #Project imports
 from model_functions_initial.utility import utility_functions
@@ -24,9 +27,10 @@ from model_functions_initial.compute_moments import compute_simulation_moments_w
 # Project counterfactuals
 from model_functions_counter.compute_counterfac import compute_counterfactual_diff
 from model_functions_counter.compute_counterfac import compute_diff_by_edu
-
+from model_functions_counter.compute_counterfac import plot_metrics_individual
 from model_functions_counter.compute_counterfac import plot_counterfactual_diff
 from model_functions_counter.compute_counterfac import plot_cf_diff_separate
+
 from model_functions_counter.budget_counter     import budget_dcegm_counter_oap
 
 from plots.plots import plot_empirical_vs_simulated_with_ci
@@ -36,7 +40,6 @@ from first_step.mortality import prob_survival
 
 #DC-EGM imports
 # import dcegm
-# from dcegm.pre_processing.setup_model import setup_model
 from dcegm.simulation.sim_utils import create_simulation_df
 
 # #old dcegm

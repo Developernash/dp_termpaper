@@ -1,8 +1,8 @@
-import pandas as pd
-import matplotlib.pyplot as plt
+import project_paths as pp
+from project_imports import *
 
 # 1) Indlæs data fra Excel
-df = pd.read_excel('data/jobindsats.xlsx')
+df = pd.read_excel(pp.DATA_DIR + '/jobindsats.xlsx')
 
 # 2) Konverter eventuelle decimalkommaer til punktum og til float
 df['employment_rate'] = df['employment_rate'].astype(str).str.replace(',', '.').astype(float)
@@ -23,6 +23,6 @@ plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.tight_layout()
 
 # 6) Gem figuren (valgfrit)
-plt.savefig('diff_2025_2023_by_age.png', dpi=150, bbox_inches='tight')
+plt.savefig(pp.PLOTS_DIR + '/diff_2025_2023_by_age.png', dpi=150, bbox_inches='tight')
 
 plt.show()

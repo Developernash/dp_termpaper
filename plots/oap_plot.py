@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-import numpy as np
-import matplotlib.pyplot as plt
-from pathlib import Path
+from project_imports import *
+import project_paths as pp
 
 # ——————————————————————————————————————————————
 # 1) locate & load spline parameters
-PARAM_FILE = "/Users/frederiklarsen/Thesis/Thesis/first_step/oap_params.txt"
+PARAM_FILE = pp.STRUCTURAL_RESULTS_DIR + "/oap_params.txt"
 
 b0, b1, b2, b3 = np.loadtxt(PARAM_FILE)
 
@@ -53,5 +52,5 @@ plt.title("Danish Old Age Pension Schedule")
 plt.legend(loc="best")
 plt.grid(True)
 plt.tight_layout()
-plt.savefig("/Users/frederiklarsen/Library/Mobile Documents/com~apple~CloudDocs/KU/Speciale/figurer/oap_spline_estimate_69.png", dpi=300)
+plt.savefig(pp.SIM_PLOTS_DIR + "/oap_spline_estimate_69.png", dpi=300)
 plt.show()

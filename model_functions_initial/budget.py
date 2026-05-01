@@ -2,9 +2,7 @@
 #       Budget function
 # =====================================
 
-import jax.numpy as jnp
-import numpy as np
-
+from project_imports import *
 
 # import oap regression function from first stage estimation
 # import sys
@@ -95,7 +93,6 @@ def budget_dcegm_initial(
     oap_estimate = (
         jnp.maximum(0, (predict_oap(labor_income) * 0.62) * (age >= options["retirement_age"]))
     )
-
 
     # 4) Samlet årlig pension (grundbeløb + supplement)
     period_pension = oap_estimate

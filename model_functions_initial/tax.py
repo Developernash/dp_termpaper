@@ -1,4 +1,4 @@
-import jax.numpy as jnp
+from project_imports import *
 
 def tax_liability(labor_income):
     """

@@ -1,5 +1,4 @@
-import jax.numpy as jnp
-
+from project_imports import *
 
 def flow_util(consumption, choice, params, period, options, lagged_choice):
     # Utility parameter

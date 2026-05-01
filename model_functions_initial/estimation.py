@@ -1,15 +1,4 @@
-# msm_objective.py
-
-import numpy as np
-from scipy.optimize import minimize
-import jax.numpy as jnp
-
-# import whatever simulation helpers you already have
-from dcegm.pre_processing.setup_model import setup_model
-# from dcegm.sim_interface import get_sol_and_sim_func_for_model
-from dcegm.simulation.sim_utils import create_simulation_df
-from model_functions_initial.compute_moments import compute_simulation_moments
-
+from project_imports import *
 
 def crit_func_scipy(
     theta_array: np.ndarray,

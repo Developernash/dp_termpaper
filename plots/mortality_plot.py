@@ -1,12 +1,7 @@
-import os
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-from scipy.optimize import minimize
+from project_imports import *
+import project_paths as pp
 
-
-DATA_DIR    = "/Users/frederiklarsen/Data"
-Mortality   = os.path.join(DATA_DIR, "mortality.xlsx")
+Mortality   = os.path.join(pp.DATA_DIR, "mortality.xlsx")
 
 df = pd.read_excel(Mortality, sheet_name="DOD")
 ages  = df["age"].values     # e.g. 35,36,…,85
@@ -49,5 +44,5 @@ plt.title("Predicted vs Actual Mortality Rate")
 plt.legend()
 plt.grid()
 plt.tight_layout()
-plt.savefig("/Users/frederiklarsen/Library/Mobile Documents/com~apple~CloudDocs/KU/Speciale/figurer/mortality_estimate.png", dpi=300)
+plt.savefig(pp.PLOTS_DIR + "/mortality_estimate.png", dpi=300)
 plt.show()

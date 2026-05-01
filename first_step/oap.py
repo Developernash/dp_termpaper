@@ -1,11 +1,6 @@
-# pension_spline.py
-
+from project_paths import pp
 import numpy as np
 import statsmodels.api as sm
-
-import sys
-sys.path.insert(0,"C:\\Users\\Nashw\\Studiet\\polit\\2. Semester\\DynamicProgramming\\Thesis\\dp_termpaper")
-out = "C:\\Users\\Nashw\\Studiet\\polit\\2. Semester\\DynamicProgramming\\Thesis\\dp_termpaper\\results\\first_stage estimation"
 
 # estimate old age pension as function of income
 # k1 = options["model_params"]["supp_threshold"]        # e.g. 0.793 → 79 300 kr
@@ -52,4 +47,4 @@ print(spline_model.summary())
 print(f"β₀ = {β0:.6f}, β₁ = {β1:.6f}, β₂ = {β2:.6f}, β₃ = {β3:.6f}")
 
 # save as txt file
-np.savetxt("/Users/frederiklarsen/dcegm/Speciale/first_step/oap_params.txt", [β0, β1, β2, β3])
+np.savetxt(pp.STRUCTURAL_RESULTS_DIR / "oap_params.txt", [β0, β1, β2, β3])

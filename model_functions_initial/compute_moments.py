@@ -1,5 +1,4 @@
-import pandas as pd
-import numpy as np
+from project_imports import *
 
 
 def compute_simulation_moments(df_sim, start_age, hours_map):

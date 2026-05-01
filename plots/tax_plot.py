@@ -1,6 +1,5 @@
-import numpy as np
-import matplotlib.pyplot as plt
-from matplotlib.ticker import ScalarFormatter
+from project_imports import *
+import project_paths as pp
 
 # Tax parameters
 th1 = 54000      # First threshold in DKK
@@ -43,6 +42,7 @@ fmt = ScalarFormatter(useOffset=False)
 fmt.set_scientific(False)
 ax.xaxis.set_major_formatter(fmt)
 ax.yaxis.set_major_formatter(fmt)
+plt.savefig(pp.PLOTS_DIR + "/tax_function_plot.png", dpi=300)
 
 plt.tight_layout()
 plt.show()

@@ -1,9 +1,8 @@
 #=====================================
 #       Budget function 
 #=====================================
-
-import jax.numpy as jnp
-import numpy as np
+import project_paths as pp
+from project_imports import *
 
 #import oap regression function from first stage estimation
 # import sys
@@ -41,14 +40,10 @@ def budget_dcegm_counter_oap(
     initial_experience = options["max_init_experience"] = 5
     acc_exp = initial_experience + (period * experience)
 
-
-
-
     # ====================================================================
     # ————------------------------- Wage —————----------------------------
     # ====================================================================
 
-    
     # Wage function, with wage parameters estimated above.
     wage_0 = jnp.exp(params["beta0"] +
         params["beta1"] * age
@@ -74,8 +69,6 @@ def budget_dcegm_counter_oap(
     tax_labor = r2 * inc2 + r3 * inc3      # 0% on inc1
     net_labor = labor_income - tax_labor
 
-
-
     # ====================================================================
     # ————------------------- Old Age Pension —————-----------------------
     # ====================================================================
@@ -84,13 +77,9 @@ def budget_dcegm_counter_oap(
     # For the counterfactual, every agent above the retirement age
     # can receive full OAP regardless of income. 
 
-
-
     # # 1) grab your knots
     # k1 = options["supp_threshold"]
     # k2 = options["oap_threshold"]
-
-
 
     # # 2) extract the four coefficients from your fitted statsmodels OLS
     # b0, b1, b2, b3 = np.loadtxt("/Users/frederiklarsen/dcegm/Speciale/first_step/oap_params.txt")    # [(Intercept), inc, (inc-k1)+, (inc-k2)+]
@@ -103,7 +92,6 @@ def budget_dcegm_counter_oap(
 
     # oap_estimate = predict_oap(labor_income)*0.6*(age >= options["retirement_age"]) # 0.4 is the tax rate
 
-
     # # 4) Samlet årlig pension (grundbeløb + supplement)
     # period_pension = oap_estimate
 
@@ -114,16 +102,13 @@ def budget_dcegm_counter_oap(
     # ————---------------- Labor Market Pensions ——-----------------------
     # ====================================================================
 
-
     # 1) Calculate labor market pension
     lmpens = params["eta_edu"] * experience
     # 2) Calculate labor market pension after tax
     lmpens = lmpens * (1 - 0.4)
     lumpsum = jnp.where((age == 67), lmpens, 0.0)
 
-
-
-       # ====================================================================
+    # ====================================================================
     # ————---------------------- Resources -—————-------------------------
     # ====================================================================
 
