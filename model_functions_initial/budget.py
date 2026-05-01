@@ -40,7 +40,7 @@ def budget_dcegm_initial(
     # ====================================================================
 
     # Count total experience as current periods experience times period
-    initial_experience = options["max_init_experience"] = 5
+    initial_experience = options["max_init_experience"] = 5 #Could be changed - assumption that is not justified
     acc_exp = initial_experience + (period * experience)
 
     # ====================================================================
