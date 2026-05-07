@@ -29,7 +29,7 @@ def compute_simulation_moments(df_sim, start_age, hours_map):
     }
 
     # 7) Gennemsnitlig formue i periodens start
-    avg_wealth = grouped["wealth_beginning_of_period"].mean()
+    avg_wealth = grouped["assets_begin_of_period"].mean()
 
     # 8) Transitioner work->work og nowork->nowork
     work_work = grouped.apply(
@@ -133,7 +133,7 @@ def compute_simulation_moments_with_ci(df_sim, start_age, hours_map):
     cont_moms = {}
     cont_vars = {}
     for name, ser in [
-        ("avg_wealth", df["wealth_beginning_of_period"]),
+        ("avg_wealth", df["assets_begin_of_period"]),
         ("avg_wage", df["wage"]),
         ("avg_hours", df[df["choice"] != 0]["hours_value"]),
         ("avg_consumption", df["consumption"]),

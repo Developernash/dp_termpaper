@@ -15,7 +15,7 @@ def budget_dcegm_counter_oap(
     savings_end_of_previous_period,
     income_shock_previous_period,
     params,
-    options,
+    model_specs,
     period,
     survival,
     experience,
@@ -23,9 +23,9 @@ def budget_dcegm_counter_oap(
     # Interest on savings
     interest_factor = 1 + params["interest_rate"]
     # Age
-    age = (options["start_age"] + period).astype(float) # as float to avoid int64, which complicates wage function.
+    age = (model_specs["start_age"] + period).astype(float) # as float to avoid int64, which complicates wage function.
     # Working hours. indexed on lagged choice, since income today is last period's choice
-    hours = options["hours"][lagged_choice]
+    hours = model_specs["hours"][lagged_choice]
 
     # Survival
     death = survival == 0  # death probability
@@ -37,7 +37,7 @@ def budget_dcegm_counter_oap(
     # ====================================================================    
 
     # Count total experience as current periods experience times period
-    initial_experience = options["max_init_experience"] = 5
+    initial_experience = model_specs["max_init_experience"] = 5
     acc_exp = initial_experience + (period * experience)
 
     # ====================================================================
@@ -57,10 +57,10 @@ def budget_dcegm_counter_oap(
     # ====================================================================
 
     # 2) inline-tax logic
-    th1 = options["tax_threshold1"]
-    th2 = options["tax_threshold2"]
-    r2  = options["tax_base_rate"]   # e.g. 0.38
-    r3  = options["tax_top_rate"]   # e.g. 0.50
+    th1 = model_specs["tax_threshold1"]
+    th2 = model_specs["tax_threshold2"]
+    r2  = model_specs["tax_base_rate"]   # e.g. 0.38
+    r3  = model_specs["tax_top_rate"]   # e.g. 0.50
 
     inc1 = jnp.minimum(labor_income, th1)
     inc2 = jnp.minimum(jnp.maximum(labor_income - th1, 0.0), th2 - th1)
@@ -78,8 +78,8 @@ def budget_dcegm_counter_oap(
     # can receive full OAP regardless of income. 
 
     # # 1) grab your knots
-    # k1 = options["supp_threshold"]
-    # k2 = options["oap_threshold"]
+    # k1 = model_specs["supp_threshold"]
+    # k2 = model_specs["oap_threshold"]
 
     # # 2) extract the four coefficients from your fitted statsmodels OLS
     # b0, b1, b2, b3 = np.loadtxt("/Users/frederiklarsen/dcegm/Speciale/first_step/oap_params.txt")    # [(Intercept), inc, (inc-k1)+, (inc-k2)+]
@@ -90,13 +90,13 @@ def budget_dcegm_counter_oap(
     #     L2 = jnp.maximum(0, labor_income - k2)
     #     return b0 + b1*labor_income + b2*L1 + b3*L2
 
-    # oap_estimate = predict_oap(labor_income)*0.6*(age >= options["retirement_age"]) # 0.4 is the tax rate
+    # oap_estimate = predict_oap(labor_income)*0.6*(age >= model_specs["retirement_age"]) # 0.4 is the tax rate
 
     # # 4) Samlet årlig pension (grundbeløb + supplement)
     # period_pension = oap_estimate
 
     # Period_pension after tax
-    period_pension = jnp.where((age >= options["retirement_age"]),(options["oap_base_amount"]+options["oap_max_supplement"]) * 0.63, 0)
+    period_pension = jnp.where((age >= model_specs["retirement_age"]),(model_specs["oap_base_amount"]+model_specs["oap_max_supplement"]) * 0.63, 0)
 
     # ====================================================================
     # ————---------------- Labor Market Pensions ——-----------------------
@@ -124,7 +124,7 @@ def budget_dcegm_counter_oap(
             + lumpsum
         ),
         (
-            jnp.maximum(unemployment_benefit * 0.62 * (age < options["retirement_age"]), savings_end_of_previous_period*interest_factor)+ period_pension * (lagged_choice == 0)
+            jnp.maximum(unemployment_benefit * 0.62 * (age < model_specs["retirement_age"]), savings_end_of_previous_period*interest_factor)+ period_pension * (lagged_choice == 0)
         ),
     )
 

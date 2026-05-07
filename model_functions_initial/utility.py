@@ -1,11 +1,11 @@
 from project_imports import *
 
-def flow_util(consumption, choice, params, period, options, lagged_choice):
+def flow_util(consumption, choice, params, period, model_specs, lagged_choice):
     # Utility parameter
     rho = params["rho"]
 
     # Disutility parameters
-    age = (options["start_age"] + period).astype(float)
+    age = (model_specs["start_age"] + period).astype(float)
     gamma = params["gamma"][choice - 1]  # remove the first element
 
     ##############################################

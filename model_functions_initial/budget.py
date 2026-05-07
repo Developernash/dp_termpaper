@@ -3,18 +3,14 @@
 # =====================================
 
 from project_imports import *
-
-# import oap regression function from first stage estimation
-# import sys
-# sys.path.insert(0,"/Users/frederiklarsen/dcegm/Speciale")
-
+import project_paths as pp
 
 def budget_dcegm_initial(
     lagged_choice,
-    savings_end_of_previous_period,
+    asset_end_of_previous_period,
     income_shock_previous_period,
     params,
-    options,
+    model_specs,
     period,
     survival,
     experience,
@@ -22,11 +18,11 @@ def budget_dcegm_initial(
     # Interest on savings
     interest_factor = 1 + params["interest_rate"]
     # Age
-    age = (options["start_age"] + period).astype(
+    age = (model_specs["start_age"] + period).astype(
         float
     )  # as float to avoid int64, which complicates wage function.
     # Working hours. indexed on lagged choice, since income today is last period's choice
-    hours = options["hours"][lagged_choice]
+    hours = model_specs["hours"][lagged_choice]
 
     # Survival
     death = survival == 0  # death probability
@@ -38,7 +34,7 @@ def budget_dcegm_initial(
     # ====================================================================
 
     # Count total experience as current periods experience times period
-    initial_experience = options["max_init_experience"] = 5 #Could be changed - assumption that is not justified
+    initial_experience = model_specs["max_init_experience"] = 5 #Could be changed - assumption that is not justified
     acc_exp = initial_experience + (period * experience)
 
     # ====================================================================
@@ -59,10 +55,10 @@ def budget_dcegm_initial(
     # ====================================================================
 
     # 2) inline-tax logic
-    th1 = options["tax_threshold1"]
-    th2 = options["tax_threshold2"]
-    r2  = options["tax_base_rate"]   # e.g. 0.38
-    r3  = options["tax_top_rate"]   # e.g. 0.50
+    th1 = model_specs["tax_threshold1"]
+    th2 = model_specs["tax_threshold2"]
+    r2  = model_specs["tax_base_rate"]   # e.g. 0.38
+    r3  = model_specs["tax_top_rate"]   # e.g. 0.50
 
     inc1 = jnp.minimum(labor_income, th1)
     inc2 = jnp.minimum(jnp.maximum(labor_income - th1, 0.0), th2 - th1)
@@ -75,13 +71,11 @@ def budget_dcegm_initial(
     # ====================================================================
 
     # 1) grab your knots
-    k1 = options["supp_threshold"]
-    k2 = options["oap_threshold"]
+    k1 = model_specs["supp_threshold"]
+    k2 = model_specs["oap_threshold"]
 
     # 2) extract the four coefficients from your fitted statsmodels OLS
-    b0, b1, b2, b3 = np.loadtxt(
-        "/Users/frederiklarsen/dcegm/Speciale/first_step/oap_params.txt"
-    )  # [(Intercept), inc, (inc-k1)+, (inc-k2)+]
+    b0, b1, b2, b3 = np.loadtxt(pp.STRUCTURAL_RESULTS_DIR / "oap_params.txt")  # [(Intercept), inc, (inc-k1)+, (inc-k2)+]
 
     # 3) define a vectorized “predict pension” function
     def predict_oap(labor_income):
@@ -91,7 +85,7 @@ def budget_dcegm_initial(
 
 
     oap_estimate = (
-        jnp.maximum(0, (predict_oap(labor_income) * 0.62) * (age >= options["retirement_age"]))
+        jnp.maximum(0, (predict_oap(labor_income) * 0.62) * (age >= model_specs["retirement_age"]))
     )
 
     # 4) Samlet årlig pension (grundbeløb + supplement)
@@ -127,18 +121,18 @@ def budget_dcegm_initial(
     resource = jnp.where(
         lagged_choice > 0,
         (
-            interest_factor * savings_end_of_previous_period
+            interest_factor * asset_end_of_previous_period
             + net_labor
             + period_pension
             + lumpsum
         ),
         (
-            jnp.maximum(unemployment_benefit * 0.62 * (age < options["retirement_age"]), savings_end_of_previous_period*interest_factor)+ period_pension * (lagged_choice == 0)
+            jnp.maximum(unemployment_benefit * 0.62 * (age < model_specs["retirement_age"]), asset_end_of_previous_period*interest_factor)+ period_pension * (lagged_choice == 0)
         ),
     )
 
     resource = jnp.where(
-        death, savings_end_of_previous_period, resource
+        death, asset_end_of_previous_period, resource
     )  # if dead, resource is 0.0
 
     # resource = jnp.where(alive, resource_raw, 0.0) # if alive, resource is resource_raw, else 0.0

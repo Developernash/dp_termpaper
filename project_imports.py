@@ -14,6 +14,8 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import ScalarFormatter
 import seaborn as sns
 
+#from first_stage estimation
+from first_step.wage import wage_estimation
 
 #Project imports
 from model_functions_initial.utility import utility_functions
@@ -22,7 +24,7 @@ from model_functions_initial.budget import budget_dcegm_initial
 from model_functions_initial.state_space_functions import create_state_space_function_dict
 from model_functions_initial.compute_moments import compute_simulation_moments
 from model_functions_initial.compute_moments import compute_simulation_moments_with_ci
-# from model_functions_initial.estimation import estimate_msm
+from model_functions_initial.estimation import estimate_msm
 
 # Project counterfactuals
 from model_functions_counter.compute_counterfac import compute_counterfactual_diff
@@ -39,20 +41,9 @@ from first_step.load_params import load_params_txt
 from first_step.mortality import prob_survival
 
 #DC-EGM imports
-# import dcegm
+import dcegm
 from dcegm.simulation.sim_utils import create_simulation_df
-
-# #old dcegm
-# from dcegm.interface                  import validate_exogenous_processes
-# from dcegm.sim_interface              import get_sol_and_sim_func_for_model
-
-# Trying
-from dcegm.pre_processing.setup_model import (
-    create_model_dict,
-    create_model_dict_and_save,
-    load_model_dict,
-    process_debug_string
-)
+from dcegm.interfaces.model_class import setup_model
 
 #Statistical imports
 import statsmodels.api as sm

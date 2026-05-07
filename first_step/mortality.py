@@ -1,8 +1,8 @@
 import jax.numpy as jnp
 
-def prob_survival(period, options, survival):
-    alpha1 = options["alpha1"]
-    alpha2 = options["alpha2"]
+def prob_survival(period, model_specs, survival):
+    alpha1 = model_specs["alpha1"]
+    alpha2 = model_specs["alpha2"]
 
     # death probability must be jnp.exp, and clipped to [0,1]
     death_prob = alpha1 * (jnp.exp(alpha2 * period) - 1.0)

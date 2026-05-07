@@ -1,14 +1,14 @@
 from project_imports import *
 
-def next_period_experience(period, lagged_choice, experience, options):
+def  next_period_experience(period, lagged_choice, experience, model_specs):
     """Calculate next period's experience based on current period's experience and last period labor choice."""
     experience = experience.astype(float)
     period = period.astype(float)
 
     # grab hours and max_hours as
-    hours = options["hours"][lagged_choice]
-    max_hours = jnp.array(options["max_hours"])
-    init_exp = jnp.array(options["max_init_experience"])
+    hours = model_specs["hours"][lagged_choice]
+    max_hours = jnp.array(model_specs["max_hours"])
+    init_exp = jnp.array(model_specs["max_init_experience"])
 
     # t+init_experience
     max_experience_period = period + init_exp
@@ -20,26 +20,24 @@ def next_period_experience(period, lagged_choice, experience, options):
 
     return next_exp
 
-
-# def state_specific_choice_set(period, lagged_choice, options):
+# def state_specific_choice_set(period, lagged_choice, model_specs):
 #     """Determine the feasible choice set for the current state."""
 
-#     age = (options["start_age"] + period).astype(float)
+#     age = (model_specs["start_age"] + period).astype(float)
 
 #     # Retirement is absorbing
-#     if (lagged_choice == 0) and (age > options["retirement_age"]):
+#     if (lagged_choice == 0) and (age > model_specs["retirement_age"]):
 #         return [0]
 #     # If period equal or larger max ret age you have to choose retirement
-#     elif period >= options["max_ret_period"]:
+#     elif period >= model_specs["max_ret_period"]:
 #         return [0]
 #     # If above minimum retirement period, retirement is possible
 #     else:
-#         return options["choices"]
-    
+#         return model_specs["choices"]
 
 def get_state_specific_feasible_choice_set(
     lagged_choice: int,
-    options: Dict,
+    model_specs: Dict,
     period: int,
 ) -> np.ndarray:
     """Select state-specific feasible choice set such that retirement is absorbing.
@@ -65,21 +63,21 @@ def get_state_specific_feasible_choice_set(
             agent's (restricted) feasible choice set in the given state.
 
     """
-    age = options["start_age"] + period
+    age = model_specs["start_age"] + period
 
     # Once the agent choses retirement, she can only choose retirement thereafter.
     # Hence, retirement is an absorbing state.
-    if lagged_choice == 0 and (age >= options["retirement_age"]):
+    if lagged_choice == 0 and (age >= model_specs["retirement_age"]):
         feasible_choice_set = jnp.array([0])
     else:
-        feasible_choice_set = options["choices"]
+        feasible_choice_set = model_specs["choices"]
 
     return feasible_choice_set
 
 
-def sparsity_condition(period, lagged_choice, survival, options):
+def sparsity_condition(period, lagged_choice, survival, model_specs):
     """Determine the sparsity condition for the current state."""
-    final_period = options["n_periods"] - 1
+    final_period = model_specs["n_periods"] - 1
 
     if survival == 0:
         return {
