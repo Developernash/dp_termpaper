@@ -1,0 +1,1321 @@
+education,age,n_data,moment,data_value,data_se,denominator_note
+udd1,30,2840,prob_work,0.7408450704,0.008222128593867357,Uses total age-cell frequency
+udd1,31,5097,prob_work,0.7255248185,0.00625058060855109,Uses total age-cell frequency
+udd1,32,7282,prob_work,0.7283713266,0.005212413841895231,Uses total age-cell frequency
+udd1,33,9171,prob_work,0.7294733399,0.00463875463007704,Uses total age-cell frequency
+udd1,34,11180,prob_work,0.7228980322,0.004232894306220716,Uses total age-cell frequency
+udd1,35,13112,prob_work,0.7188834655,0.003925888602819013,Uses total age-cell frequency
+udd1,36,17702,prob_work,0.7478815953,0.0032636796977581362,Uses total age-cell frequency
+udd1,37,22115,prob_work,0.7633280579,0.0028581533632124284,Uses total age-cell frequency
+udd1,38,26699,prob_work,0.7775197573,0.0025453877161882243,Uses total age-cell frequency
+udd1,39,31731,prob_work,0.7868960953,0.0022988599768867745,Uses total age-cell frequency
+udd1,40,32214,prob_work,0.7873905755,0.0022796282744457015,Uses total age-cell frequency
+udd1,41,32959,prob_work,0.7841864134,0.0022660111095178944,Uses total age-cell frequency
+udd1,42,33929,prob_work,0.7889416134,0.002215328879254968,Uses total age-cell frequency
+udd1,43,34810,prob_work,0.7871588624,0.0021938501947408816,Uses total age-cell frequency
+udd1,44,35491,prob_work,0.7868473698,0.0021738595353921033,Uses total age-cell frequency
+udd1,45,36530,prob_work,0.789488092,0.002132977575295862,Uses total age-cell frequency
+udd1,46,37648,prob_work,0.7887537187,0.002103750786040311,Uses total age-cell frequency
+udd1,47,38609,prob_work,0.7876919889,0.002081215868645027,Uses total age-cell frequency
+udd1,48,39731,prob_work,0.7834688279,0.002066361617364992,Uses total age-cell frequency
+udd1,49,40045,prob_work,0.778873767,0.002073860420280879,Uses total age-cell frequency
+udd1,50,40332,prob_work,0.7723147873,0.002088044301422947,Uses total age-cell frequency
+udd1,51,40778,prob_work,0.7666633969,0.002094502289083435,Uses total age-cell frequency
+udd1,52,41035,prob_work,0.7649811137,0.0020931459883932807,Uses total age-cell frequency
+udd1,53,41296,prob_work,0.7609695854,0.0020987283947791133,Uses total age-cell frequency
+udd1,54,42101,prob_work,0.7576067077,0.0020885073047798696,Uses total age-cell frequency
+udd1,55,42583,prob_work,0.7569922269,0.002078440831126764,Uses total age-cell frequency
+udd1,56,42538,prob_work,0.7530443368,0.002090890237522,Uses total age-cell frequency
+udd1,57,41686,prob_work,0.7471813079,0.002128739296911431,Uses total age-cell frequency
+udd1,58,40096,prob_work,0.7387270551,0.002194010481356121,Uses total age-cell frequency
+udd1,59,38600,prob_work,0.7272279793,0.002266947946080665,Uses total age-cell frequency
+udd1,60,36987,prob_work,0.7127909806,0.002352640566524788,Uses total age-cell frequency
+udd1,61,35482,prob_work,0.6865171073,0.0024627966771964926,Uses total age-cell frequency
+udd1,62,34081,prob_work,0.6530911652,0.0025783295133971025,Uses total age-cell frequency
+udd1,63,32751,prob_work,0.608439437,0.002697092662546113,Uses total age-cell frequency
+udd1,64,31813,prob_work,0.5374218087,0.002795425401590887,Uses total age-cell frequency
+udd1,65,31074,prob_work,0.4617365,0.0028281079857679146,Uses total age-cell frequency
+udd1,66,30479,prob_work,0.369729978,0.0027650647198966876,Uses total age-cell frequency
+udd1,67,30295,prob_work,0.2943389998,0.0026184029670637456,Uses total age-cell frequency
+udd1,68,29842,prob_work,0.2285369613,0.002430646617745015,Uses total age-cell frequency
+udd1,69,29091,prob_work,0.1882712867,0.0022920187942329336,Uses total age-cell frequency
+udd1,70,28733,prob_work,0.1609299412,0.0021678391339006327,Uses total age-cell frequency
+udd1,71,28201,prob_work,0.1363072231,0.0020431809215295735,Uses total age-cell frequency
+udd1,72,27755,prob_work,0.1211313277,0.0019584821378455207,Uses total age-cell frequency
+udd1,73,27615,prob_work,0.1057758465,0.0018507336830483588,Uses total age-cell frequency
+udd1,74,27541,prob_work,0.0951672053,0.0017682268125482755,Uses total age-cell frequency
+udd1,75,27329,prob_work,0.085733104,0.0016935534234307523,Uses total age-cell frequency
+udd1,76,25186,prob_work,0.0762725324,0.0016725396125979084,Uses total age-cell frequency
+udd1,77,22442,prob_work,0.0706710632,0.001710703577368741,Uses total age-cell frequency
+udd1,78,19392,prob_work,0.0636344884,0.001752902182840434,Uses total age-cell frequency
+udd1,79,16359,prob_work,0.0566660554,0.0018076562448152392,Uses total age-cell frequency
+udd1,80,13610,prob_work,0.0522409993,0.001907329096678725,Uses total age-cell frequency
+udd1,81,11239,prob_work,0.0477800516,0.0020120006158682985,Uses total age-cell frequency
+udd1,82,7491,prob_work,0.0392470965,0.0022435704994076444,Uses total age-cell frequency
+udd1,83,4499,prob_work,0.0384529896,0.002866766492096879,Uses total age-cell frequency
+udd1,84,1982,prob_work,0.0363269425,0.004202690968497573,Uses total age-cell frequency
+udd2,30,1113,prob_work,0.8364779874,0.011085819114547741,Uses total age-cell frequency
+udd2,31,2004,prob_work,0.8383233533,0.00822395206277736,Uses total age-cell frequency
+udd2,32,2718,prob_work,0.8465783664,0.006912770810141866,Uses total age-cell frequency
+udd2,33,3314,prob_work,0.8569704285,0.0060816242603513124,Uses total age-cell frequency
+udd2,34,3924,prob_work,0.8519367992,0.0056697349439432864,Uses total age-cell frequency
+udd2,35,4527,prob_work,0.8641484427,0.005092385104919589,Uses total age-cell frequency
+udd2,36,7085,prob_work,0.8955539873,0.003633472613983238,Uses total age-cell frequency
+udd2,37,9565,prob_work,0.8999477261,0.003068171535217347,Uses total age-cell frequency
+udd2,38,12100,prob_work,0.9083471074,0.0026230485052694133,Uses total age-cell frequency
+udd2,39,14860,prob_work,0.9185733513,0.002243524397348909,Uses total age-cell frequency
+udd2,40,14575,prob_work,0.9162950257,0.002293976773917997,Uses total age-cell frequency
+udd2,41,14728,prob_work,0.9144486692,0.0023047358812311766,Uses total age-cell frequency
+udd2,42,15004,prob_work,0.9142228739,0.0022861686212258562,Uses total age-cell frequency
+udd2,43,15152,prob_work,0.9114968321,0.0023073953287175036,Uses total age-cell frequency
+udd2,44,15237,prob_work,0.9129093654,0.0022842825651897933,Uses total age-cell frequency
+udd2,45,15257,prob_work,0.9136134233,0.0022744154400405696,Uses total age-cell frequency
+udd2,46,15375,prob_work,0.9116097561,0.002289280906492785,Uses total age-cell frequency
+udd2,47,15578,prob_work,0.9089741944,0.00230463521045287,Uses total age-cell frequency
+udd2,48,15708,prob_work,0.9064171123,0.0023238164557793342,Uses total age-cell frequency
+udd2,49,15636,prob_work,0.9031721668,0.0023649531868984407,Uses total age-cell frequency
+udd2,50,15191,prob_work,0.8943453361,0.002494042086304621,Uses total age-cell frequency
+udd2,51,14835,prob_work,0.8928210313,0.0025397631497149713,Uses total age-cell frequency
+udd2,52,14402,prob_work,0.8886960144,0.0026207196854826074,Uses total age-cell frequency
+udd2,53,14078,prob_work,0.8820855235,0.0027181187756138052,Uses total age-cell frequency
+udd2,54,13964,prob_work,0.8815525637,0.0027345257600689156,Uses total age-cell frequency
+udd2,55,13816,prob_work,0.8784742328,0.0027797615099664436,Uses total age-cell frequency
+udd2,56,13539,prob_work,0.8712608021,0.002878300897941932,Uses total age-cell frequency
+udd2,57,13004,prob_work,0.8638880345,0.003007034436416354,Uses total age-cell frequency
+udd2,58,12185,prob_work,0.86056627,0.0031380749771198944,Uses total age-cell frequency
+udd2,59,11532,prob_work,0.8474679154,0.0033480344533207062,Uses total age-cell frequency
+udd2,60,11168,prob_work,0.8347063037,0.0035148539979271646,Uses total age-cell frequency
+udd2,61,10557,prob_work,0.8140570238,0.003786579175335343,Uses total age-cell frequency
+udd2,62,10144,prob_work,0.7891364353,0.004050160181311748,Uses total age-cell frequency
+udd2,63,9703,prob_work,0.751932392,0.004384513491278758,Uses total age-cell frequency
+udd2,64,9220,prob_work,0.68329718,0.0048446824820465775,Uses total age-cell frequency
+udd2,65,8973,prob_work,0.6166276608,0.0051327847833140166,Uses total age-cell frequency
+udd2,66,8725,prob_work,0.5220630372,0.005347663414875498,Uses total age-cell frequency
+udd2,67,8583,prob_work,0.4249097052,0.00533576616014696,Uses total age-cell frequency
+udd2,68,8433,prob_work,0.3348748962,0.005139275692341065,Uses total age-cell frequency
+udd2,69,8358,prob_work,0.2818856186,0.0049213254758894084,Uses total age-cell frequency
+udd2,70,8294,prob_work,0.2442729684,0.004717785245841577,Uses total age-cell frequency
+udd2,71,8097,prob_work,0.2152649129,0.004567579234506994,Uses total age-cell frequency
+udd2,72,8065,prob_work,0.1859888407,0.004332678231937954,Uses total age-cell frequency
+udd2,73,8060,prob_work,0.1667493797,0.004151952873495818,Uses total age-cell frequency
+udd2,74,7998,prob_work,0.1464116029,0.003952949801422316,Uses total age-cell frequency
+udd2,75,7923,prob_work,0.1340401363,0.0038275553888924238,Uses total age-cell frequency
+udd2,76,7366,prob_work,0.1178387184,0.0037566621939939624,Uses total age-cell frequency
+udd2,77,6573,prob_work,0.1058877225,0.0037952205308516003,Uses total age-cell frequency
+udd2,78,5726,prob_work,0.0962277331,0.0038972113695161376,Uses total age-cell frequency
+udd2,79,4695,prob_work,0.0815761448,0.003994711024097047,Uses total age-cell frequency
+udd2,80,3872,prob_work,0.0779958678,0.004309576126010466,Uses total age-cell frequency
+udd2,81,3178,prob_work,0.0695405916,0.004512227207687515,Uses total age-cell frequency
+udd2,82,2067,prob_work,0.0556361877,0.0050417129079373514,Uses total age-cell frequency
+udd2,83,1296,prob_work,0.0516975309,0.006150435106988815,Uses total age-cell frequency
+udd2,84,578,prob_work,0.0397923875,0.008130526164046118,Uses total age-cell frequency
+udd3,30,1301,prob_work,0.8455034589,0.010020246985229112,Uses total age-cell frequency
+udd3,31,2482,prob_work,0.8255439162,0.007617496469827562,Uses total age-cell frequency
+udd3,32,3552,prob_work,0.8119369369,0.0065565657939612,Uses total age-cell frequency
+udd3,33,4342,prob_work,0.8090741594,0.0059646039456344516,Uses total age-cell frequency
+udd3,34,4950,prob_work,0.8107070707,0.005567966029027937,Uses total age-cell frequency
+udd3,35,5483,prob_work,0.8099580522,0.005298426049181692,Uses total age-cell frequency
+udd3,36,8619,prob_work,0.8586843021,0.003752178798951493,Uses total age-cell frequency
+udd3,37,11739,prob_work,0.882272766,0.0029745711105961625,Uses total age-cell frequency
+udd3,38,14733,prob_work,0.8976447431,0.002497248309639693,Uses total age-cell frequency
+udd3,39,17853,prob_work,0.9056741164,0.0021874886917706837,Uses total age-cell frequency
+udd3,40,17484,prob_work,0.9090597117,0.0021744727514879728,Uses total age-cell frequency
+udd3,41,16899,prob_work,0.9114740517,0.0021851283195683975,Uses total age-cell frequency
+udd3,42,16541,prob_work,0.9145154465,0.0021739946231627972,Uses total age-cell frequency
+udd3,43,15978,prob_work,0.9197646764,0.0021491165028498533,Uses total age-cell frequency
+udd3,44,15429,prob_work,0.9205392443,0.002177351826489313,Uses total age-cell frequency
+udd3,45,15154,prob_work,0.9216048568,0.002183500596065662,Uses total age-cell frequency
+udd3,46,14897,prob_work,0.9210579311,0.00220926756436602,Uses total age-cell frequency
+udd3,47,14703,prob_work,0.9215126165,0.0022179287467552827,Uses total age-cell frequency
+udd3,48,14631,prob_work,0.9255006493,0.0021708389365766097,Uses total age-cell frequency
+udd3,49,14114,prob_work,0.9226300128,0.00224892511727897,Uses total age-cell frequency
+udd3,50,13301,prob_work,0.9222614841,0.00232168348356418,Uses total age-cell frequency
+udd3,51,12629,prob_work,0.9197086072,0.0024181049140975814,Uses total age-cell frequency
+udd3,52,11941,prob_work,0.9146637635,0.0025566844533539816,Uses total age-cell frequency
+udd3,53,11340,prob_work,0.9126102293,0.00265195676112468,Uses total age-cell frequency
+udd3,54,11158,prob_work,0.9095716078,0.002715049011524736,Uses total age-cell frequency
+udd3,55,10794,prob_work,0.9073559385,0.0027906567984540575,Uses total age-cell frequency
+udd3,56,10445,prob_work,0.9020584011,0.0029083502057988602,Uses total age-cell frequency
+udd3,57,9859,prob_work,0.8980626838,0.003047217753079546,Uses total age-cell frequency
+udd3,58,9125,prob_work,0.8928219178,0.003238314137687772,Uses total age-cell frequency
+udd3,59,8551,prob_work,0.8825868319,0.0034811975710490038,Uses total age-cell frequency
+udd3,60,8036,prob_work,0.8702090592,0.0037489877924814017,Uses total age-cell frequency
+udd3,61,7489,prob_work,0.854453198,0.004075055783726453,Uses total age-cell frequency
+udd3,62,7287,prob_work,0.8394400988,0.004300698691989682,Uses total age-cell frequency
+udd3,63,7168,prob_work,0.8162667411,0.004574155679219102,Uses total age-cell frequency
+udd3,64,7025,prob_work,0.7839145907,0.004910479826489065,Uses total age-cell frequency
+udd3,65,6992,prob_work,0.7336956522,0.0052862340944601184,Uses total age-cell frequency
+udd3,66,6812,prob_work,0.6623605402,0.005729760967412371,Uses total age-cell frequency
+udd3,67,6754,prob_work,0.5663310631,0.00603022922492882,Uses total age-cell frequency
+udd3,68,6615,prob_work,0.4875283447,0.006145679895486712,Uses total age-cell frequency
+udd3,69,6435,prob_work,0.4177156177,0.006147997070315945,Uses total age-cell frequency
+udd3,70,6337,prob_work,0.3692599022,0.006062467761445677,Uses total age-cell frequency
+udd3,71,6224,prob_work,0.3189267352,0.005907552472641256,Uses total age-cell frequency
+udd3,72,6085,prob_work,0.2726376335,0.005708710556696205,Uses total age-cell frequency
+udd3,73,5938,prob_work,0.2418322668,0.005556734866837326,Uses total age-cell frequency
+udd3,74,5880,prob_work,0.2161564626,0.005367970744231724,Uses total age-cell frequency
+udd3,75,5681,prob_work,0.196444288,0.005271270516252572,Uses total age-cell frequency
+udd3,76,5187,prob_work,0.1733179102,0.0052557277723988,Uses total age-cell frequency
+udd3,77,4611,prob_work,0.1559314682,0.005342667879485115,Uses total age-cell frequency
+udd3,78,4006,prob_work,0.143534698,0.005539593078944676,Uses total age-cell frequency
+udd3,79,3348,prob_work,0.1296296296,0.005805123512840444,Uses total age-cell frequency
+udd3,80,2785,prob_work,0.1055655296,0.005822677407687409,Uses total age-cell frequency
+udd3,81,2244,prob_work,0.0811051693,0.0057629618615324,Uses total age-cell frequency
+udd3,82,1484,prob_work,0.0781671159,0.006968209380870932,Uses total age-cell frequency
+udd3,83,933,prob_work,0.0589496249,0.007710918931322863,Uses total age-cell frequency
+udd3,84,449,prob_work,0.0534521158,0.010615258496821947,Uses total age-cell frequency
+udd1,30,2840,hours_0,0.2591549296,0.008222128593867357,Uses total age-cell frequency
+udd1,31,5097,hours_0,0.2744751815,0.00625058060855109,Uses total age-cell frequency
+udd1,32,7282,hours_0,0.2716286734,0.005212413841895232,Uses total age-cell frequency
+udd1,33,9171,hours_0,0.2705266601,0.00463875463007704,Uses total age-cell frequency
+udd1,34,11180,hours_0,0.2771019678,0.004232894306220716,Uses total age-cell frequency
+udd1,35,13112,hours_0,0.2811165345,0.003925888602819014,Uses total age-cell frequency
+udd1,36,17702,hours_0,0.2521184047,0.0032636796977581362,Uses total age-cell frequency
+udd1,37,22115,hours_0,0.2366719421,0.0028581533632124284,Uses total age-cell frequency
+udd1,38,26699,hours_0,0.2224802427,0.0025453877161882243,Uses total age-cell frequency
+udd1,39,31731,hours_0,0.2131039047,0.0022988599768867745,Uses total age-cell frequency
+udd1,40,32214,hours_0,0.2126094245,0.002279628274445702,Uses total age-cell frequency
+udd1,41,32959,hours_0,0.2158135866,0.0022660111095178944,Uses total age-cell frequency
+udd1,42,33929,hours_0,0.2110583866,0.0022153288792549682,Uses total age-cell frequency
+udd1,43,34810,hours_0,0.2128411376,0.0021938501947408816,Uses total age-cell frequency
+udd1,44,35491,hours_0,0.2131526302,0.0021738595353921033,Uses total age-cell frequency
+udd1,45,36530,hours_0,0.210511908,0.0021329775752958625,Uses total age-cell frequency
+udd1,46,37648,hours_0,0.2112462813,0.002103750786040311,Uses total age-cell frequency
+udd1,47,38609,hours_0,0.2123080111,0.002081215868645027,Uses total age-cell frequency
+udd1,48,39731,hours_0,0.2165311721,0.002066361617364992,Uses total age-cell frequency
+udd1,49,40045,hours_0,0.221126233,0.002073860420280879,Uses total age-cell frequency
+udd1,50,40332,hours_0,0.2276852127,0.002088044301422947,Uses total age-cell frequency
+udd1,51,40778,hours_0,0.2333366031,0.002094502289083435,Uses total age-cell frequency
+udd1,52,41035,hours_0,0.2350188863,0.0020931459883932807,Uses total age-cell frequency
+udd1,53,41296,hours_0,0.2390304146,0.0020987283947791133,Uses total age-cell frequency
+udd1,54,42101,hours_0,0.2423932923,0.0020885073047798696,Uses total age-cell frequency
+udd1,55,42583,hours_0,0.2430077731,0.002078440831126764,Uses total age-cell frequency
+udd1,56,42538,hours_0,0.2469556632,0.002090890237522,Uses total age-cell frequency
+udd1,57,41686,hours_0,0.2528186921,0.0021287392969114314,Uses total age-cell frequency
+udd1,58,40096,hours_0,0.2612729449,0.002194010481356121,Uses total age-cell frequency
+udd1,59,38600,hours_0,0.2727720207,0.0022669479460806653,Uses total age-cell frequency
+udd1,60,36987,hours_0,0.2872090194,0.002352640566524788,Uses total age-cell frequency
+udd1,61,35482,hours_0,0.3134828927,0.002462796677196493,Uses total age-cell frequency
+udd1,62,34081,hours_0,0.3469088348,0.0025783295133971025,Uses total age-cell frequency
+udd1,63,32751,hours_0,0.391560563,0.002697092662546113,Uses total age-cell frequency
+udd1,64,31813,hours_0,0.4625781913,0.002795425401590887,Uses total age-cell frequency
+udd1,65,31074,hours_0,0.5382635,0.0028281079857679146,Uses total age-cell frequency
+udd1,66,30479,hours_0,0.630270022,0.0027650647198966876,Uses total age-cell frequency
+udd1,67,30295,hours_0,0.7056610002,0.0026184029670637456,Uses total age-cell frequency
+udd1,68,29842,hours_0,0.7714630387,0.002430646617745015,Uses total age-cell frequency
+udd1,69,29091,hours_0,0.8117287133,0.0022920187942329336,Uses total age-cell frequency
+udd1,70,28733,hours_0,0.8390700588,0.0021678391339006327,Uses total age-cell frequency
+udd1,71,28201,hours_0,0.8636927769,0.0020431809215295735,Uses total age-cell frequency
+udd1,72,27755,hours_0,0.8788686723,0.0019584821378455207,Uses total age-cell frequency
+udd1,73,27615,hours_0,0.8942241535,0.001850733683048359,Uses total age-cell frequency
+udd1,74,27541,hours_0,0.9048327947,0.0017682268125482755,Uses total age-cell frequency
+udd1,75,27329,hours_0,0.914266896,0.0016935534234307523,Uses total age-cell frequency
+udd1,76,25186,hours_0,0.9237274676,0.0016725396125979082,Uses total age-cell frequency
+udd1,77,22442,hours_0,0.9293289368,0.0017107035773687416,Uses total age-cell frequency
+udd1,78,19392,hours_0,0.9363655116,0.0017529021828404337,Uses total age-cell frequency
+udd1,79,16359,hours_0,0.9433339446,0.0018076562448152398,Uses total age-cell frequency
+udd1,80,13610,hours_0,0.9477590007,0.0019073290966787255,Uses total age-cell frequency
+udd1,81,11239,hours_0,0.9522199484,0.002012000615868298,Uses total age-cell frequency
+udd1,82,7491,hours_0,0.9607529035,0.002243570499407645,Uses total age-cell frequency
+udd1,83,4499,hours_0,0.9615470104,0.0028667664920968786,Uses total age-cell frequency
+udd1,84,1982,hours_0,0.9636730575,0.004202690968497574,Uses total age-cell frequency
+udd2,30,1113,hours_0,0.1635220126,0.011085819114547741,Uses total age-cell frequency
+udd2,31,2004,hours_0,0.1616766467,0.008223952062777358,Uses total age-cell frequency
+udd2,32,2718,hours_0,0.1534216336,0.006912770810141865,Uses total age-cell frequency
+udd2,33,3314,hours_0,0.1430295715,0.006081624260351313,Uses total age-cell frequency
+udd2,34,3924,hours_0,0.1480632008,0.005669734943943286,Uses total age-cell frequency
+udd2,35,4527,hours_0,0.1358515573,0.005092385104919589,Uses total age-cell frequency
+udd2,36,7085,hours_0,0.1044460127,0.0036334726139832384,Uses total age-cell frequency
+udd2,37,9565,hours_0,0.1000522739,0.0030681715352173468,Uses total age-cell frequency
+udd2,38,12100,hours_0,0.0916528926,0.0026230485052694133,Uses total age-cell frequency
+udd2,39,14860,hours_0,0.0814266487,0.0022435243973489088,Uses total age-cell frequency
+udd2,40,14575,hours_0,0.0837049743,0.002293976773917997,Uses total age-cell frequency
+udd2,41,14728,hours_0,0.0855513308,0.002304735881231177,Uses total age-cell frequency
+udd2,42,15004,hours_0,0.0857771261,0.0022861686212258562,Uses total age-cell frequency
+udd2,43,15152,hours_0,0.0885031679,0.002307395328717503,Uses total age-cell frequency
+udd2,44,15237,hours_0,0.0870906346,0.0022842825651897933,Uses total age-cell frequency
+udd2,45,15257,hours_0,0.0863865767,0.0022744154400405688,Uses total age-cell frequency
+udd2,46,15375,hours_0,0.0883902439,0.0022892809064927844,Uses total age-cell frequency
+udd2,47,15578,hours_0,0.0910258056,0.002304635210452871,Uses total age-cell frequency
+udd2,48,15708,hours_0,0.0935828877,0.0023238164557793342,Uses total age-cell frequency
+udd2,49,15636,hours_0,0.0968278332,0.0023649531868984407,Uses total age-cell frequency
+udd2,50,15191,hours_0,0.1056546639,0.002494042086304621,Uses total age-cell frequency
+udd2,51,14835,hours_0,0.1071789687,0.0025397631497149713,Uses total age-cell frequency
+udd2,52,14402,hours_0,0.1113039856,0.002620719685482608,Uses total age-cell frequency
+udd2,53,14078,hours_0,0.1179144765,0.0027181187756138057,Uses total age-cell frequency
+udd2,54,13964,hours_0,0.1184474363,0.002734525760068916,Uses total age-cell frequency
+udd2,55,13816,hours_0,0.1215257672,0.0027797615099664436,Uses total age-cell frequency
+udd2,56,13539,hours_0,0.1287391979,0.002878300897941932,Uses total age-cell frequency
+udd2,57,13004,hours_0,0.1361119655,0.0030070344364163536,Uses total age-cell frequency
+udd2,58,12185,hours_0,0.13943373,0.003138074977119894,Uses total age-cell frequency
+udd2,59,11532,hours_0,0.1525320846,0.0033480344533207062,Uses total age-cell frequency
+udd2,60,11168,hours_0,0.1652936963,0.003514853997927164,Uses total age-cell frequency
+udd2,61,10557,hours_0,0.1859429762,0.003786579175335343,Uses total age-cell frequency
+udd2,62,10144,hours_0,0.2108635647,0.004050160181311748,Uses total age-cell frequency
+udd2,63,9703,hours_0,0.248067608,0.004384513491278758,Uses total age-cell frequency
+udd2,64,9220,hours_0,0.31670282,0.0048446824820465775,Uses total age-cell frequency
+udd2,65,8973,hours_0,0.3833723392,0.0051327847833140166,Uses total age-cell frequency
+udd2,66,8725,hours_0,0.4779369628,0.005347663414875498,Uses total age-cell frequency
+udd2,67,8583,hours_0,0.5750902948,0.00533576616014696,Uses total age-cell frequency
+udd2,68,8433,hours_0,0.6651251038,0.005139275692341065,Uses total age-cell frequency
+udd2,69,8358,hours_0,0.7181143814,0.0049213254758894084,Uses total age-cell frequency
+udd2,70,8294,hours_0,0.7557270316,0.004717785245841577,Uses total age-cell frequency
+udd2,71,8097,hours_0,0.7847350871,0.004567579234506994,Uses total age-cell frequency
+udd2,72,8065,hours_0,0.8140111593,0.004332678231937954,Uses total age-cell frequency
+udd2,73,8060,hours_0,0.8332506203,0.004151952873495818,Uses total age-cell frequency
+udd2,74,7998,hours_0,0.8535883971,0.003952949801422316,Uses total age-cell frequency
+udd2,75,7923,hours_0,0.8659598637,0.0038275553888924238,Uses total age-cell frequency
+udd2,76,7366,hours_0,0.8821612816,0.003756662193993963,Uses total age-cell frequency
+udd2,77,6573,hours_0,0.8941122775,0.0037952205308516003,Uses total age-cell frequency
+udd2,78,5726,hours_0,0.9037722669,0.0038972113695161376,Uses total age-cell frequency
+udd2,79,4695,hours_0,0.9184238552,0.003994711024097046,Uses total age-cell frequency
+udd2,80,3872,hours_0,0.9220041322,0.004309576126010466,Uses total age-cell frequency
+udd2,81,3178,hours_0,0.9304594084,0.004512227207687516,Uses total age-cell frequency
+udd2,82,2067,hours_0,0.9443638123,0.0050417129079373514,Uses total age-cell frequency
+udd2,83,1296,hours_0,0.9483024691,0.006150435106988812,Uses total age-cell frequency
+udd2,84,578,hours_0,0.9602076125,0.008130526164046121,Uses total age-cell frequency
+udd3,30,1301,hours_0,0.1544965411,0.010020246985229112,Uses total age-cell frequency
+udd3,31,2482,hours_0,0.1744560838,0.007617496469827562,Uses total age-cell frequency
+udd3,32,3552,hours_0,0.1880630631,0.0065565657939612,Uses total age-cell frequency
+udd3,33,4342,hours_0,0.1909258406,0.0059646039456344516,Uses total age-cell frequency
+udd3,34,4950,hours_0,0.1892929293,0.005567966029027937,Uses total age-cell frequency
+udd3,35,5483,hours_0,0.1900419478,0.005298426049181691,Uses total age-cell frequency
+udd3,36,8619,hours_0,0.1413156979,0.0037521787989514936,Uses total age-cell frequency
+udd3,37,11739,hours_0,0.117727234,0.002974571110596163,Uses total age-cell frequency
+udd3,38,14733,hours_0,0.1023552569,0.002497248309639693,Uses total age-cell frequency
+udd3,39,17853,hours_0,0.0943258836,0.002187488691770683,Uses total age-cell frequency
+udd3,40,17484,hours_0,0.0909402883,0.0021744727514879728,Uses total age-cell frequency
+udd3,41,16899,hours_0,0.0885259483,0.0021851283195683966,Uses total age-cell frequency
+udd3,42,16541,hours_0,0.0854845535,0.002173994623162798,Uses total age-cell frequency
+udd3,43,15978,hours_0,0.0802353236,0.0021491165028498537,Uses total age-cell frequency
+udd3,44,15429,hours_0,0.0794607557,0.002177351826489313,Uses total age-cell frequency
+udd3,45,15154,hours_0,0.0783951432,0.0021835005960656627,Uses total age-cell frequency
+udd3,46,14897,hours_0,0.0789420689,0.00220926756436602,Uses total age-cell frequency
+udd3,47,14703,hours_0,0.0784873835,0.002217928746755283,Uses total age-cell frequency
+udd3,48,14631,hours_0,0.0744993507,0.0021708389365766093,Uses total age-cell frequency
+udd3,49,14114,hours_0,0.0773699872,0.00224892511727897,Uses total age-cell frequency
+udd3,50,13301,hours_0,0.0777385159,0.0023216834835641798,Uses total age-cell frequency
+udd3,51,12629,hours_0,0.0802913928,0.002418104914097582,Uses total age-cell frequency
+udd3,52,11941,hours_0,0.0853362365,0.0025566844533539816,Uses total age-cell frequency
+udd3,53,11340,hours_0,0.0873897707,0.0026519567611246802,Uses total age-cell frequency
+udd3,54,11158,hours_0,0.0904283922,0.0027150490115247362,Uses total age-cell frequency
+udd3,55,10794,hours_0,0.0926440615,0.0027906567984540575,Uses total age-cell frequency
+udd3,56,10445,hours_0,0.0979415989,0.0029083502057988607,Uses total age-cell frequency
+udd3,57,9859,hours_0,0.1019373162,0.0030472177530795454,Uses total age-cell frequency
+udd3,58,9125,hours_0,0.1071780822,0.0032383141376877717,Uses total age-cell frequency
+udd3,59,8551,hours_0,0.1174131681,0.0034811975710490038,Uses total age-cell frequency
+udd3,60,8036,hours_0,0.1297909408,0.003748987792481402,Uses total age-cell frequency
+udd3,61,7489,hours_0,0.145546802,0.004075055783726453,Uses total age-cell frequency
+udd3,62,7287,hours_0,0.1605599012,0.004300698691989683,Uses total age-cell frequency
+udd3,63,7168,hours_0,0.1837332589,0.004574155679219102,Uses total age-cell frequency
+udd3,64,7025,hours_0,0.2160854093,0.004910479826489065,Uses total age-cell frequency
+udd3,65,6992,hours_0,0.2663043478,0.0052862340944601184,Uses total age-cell frequency
+udd3,66,6812,hours_0,0.3376394598,0.005729760967412371,Uses total age-cell frequency
+udd3,67,6754,hours_0,0.4336689369,0.00603022922492882,Uses total age-cell frequency
+udd3,68,6615,hours_0,0.5124716553,0.006145679895486713,Uses total age-cell frequency
+udd3,69,6435,hours_0,0.5822843823,0.006147997070315945,Uses total age-cell frequency
+udd3,70,6337,hours_0,0.6307400978,0.0060624677614456775,Uses total age-cell frequency
+udd3,71,6224,hours_0,0.6810732648,0.005907552472641256,Uses total age-cell frequency
+udd3,72,6085,hours_0,0.7273623665,0.005708710556696206,Uses total age-cell frequency
+udd3,73,5938,hours_0,0.7581677332,0.005556734866837326,Uses total age-cell frequency
+udd3,74,5880,hours_0,0.7838435374,0.005367970744231724,Uses total age-cell frequency
+udd3,75,5681,hours_0,0.803555712,0.005271270516252572,Uses total age-cell frequency
+udd3,76,5187,hours_0,0.8266820898,0.0052557277723988,Uses total age-cell frequency
+udd3,77,4611,hours_0,0.8440685318,0.0053426678794851155,Uses total age-cell frequency
+udd3,78,4006,hours_0,0.856465302,0.005539593078944676,Uses total age-cell frequency
+udd3,79,3348,hours_0,0.8703703704,0.005805123512840444,Uses total age-cell frequency
+udd3,80,2785,hours_0,0.8944344704,0.005822677407687409,Uses total age-cell frequency
+udd3,81,2244,hours_0,0.9188948307,0.0057629618615324,Uses total age-cell frequency
+udd3,82,1484,hours_0,0.9218328841,0.006968209380870933,Uses total age-cell frequency
+udd3,83,933,hours_0,0.9410503751,0.007710918931322863,Uses total age-cell frequency
+udd3,84,449,hours_0,0.9465478842,0.010615258496821945,Uses total age-cell frequency
+udd1,30,2840,hours_1,0.1183098592,0.006060511657851703,Uses total age-cell frequency
+udd1,31,5097,hours_1,0.1071218364,0.004331893678080904,Uses total age-cell frequency
+udd1,32,7282,hours_1,0.1038176325,0.0035744433669348003,Uses total age-cell frequency
+udd1,33,9171,hours_1,0.1065314579,0.0032215896517352335,Uses total age-cell frequency
+udd1,34,11180,hours_1,0.0989266547,0.002823682298947707,Uses total age-cell frequency
+udd1,35,13112,hours_1,0.0928920073,0.0025350364040468225,Uses total age-cell frequency
+udd1,36,17702,hours_1,0.0856400407,0.0021032256234948215,Uses total age-cell frequency
+udd1,37,22115,hours_1,0.0814379381,0.0018391797011797866,Uses total age-cell frequency
+udd1,38,26699,hours_1,0.0749840818,0.0016118018295973031,Uses total age-cell frequency
+udd1,39,31731,hours_1,0.0734612839,0.0014646004502355855,Uses total age-cell frequency
+udd1,40,32214,hours_1,0.0723288011,0.001443212702723746,Uses total age-cell frequency
+udd1,41,32959,hours_1,0.068630723,0.0013926219231663126,Uses total age-cell frequency
+udd1,42,33929,hours_1,0.0686138701,0.0013724145421682345,Uses total age-cell frequency
+udd1,43,34810,hours_1,0.0652398736,0.0013235935225971284,Uses total age-cell frequency
+udd1,44,35491,hours_1,0.0657631512,0.001315711546537924,Uses total age-cell frequency
+udd1,45,36530,hours_1,0.062168081,0.001263343353061447,Uses total age-cell frequency
+udd1,46,37648,hours_1,0.0624734382,0.0012472931563161074,Uses total age-cell frequency
+udd1,47,38609,hours_1,0.0610738429,0.0012187063281124406,Uses total age-cell frequency
+udd1,48,39731,hours_1,0.0571845662,0.001164898293518894,Uses total age-cell frequency
+udd1,49,40045,hours_1,0.0590585591,0.0011780089024832003,Uses total age-cell frequency
+udd1,50,40332,hours_1,0.0581176237,0.001165003903383576,Uses total age-cell frequency
+udd1,51,40778,hours_1,0.0571386532,0.0011494126035636256,Uses total age-cell frequency
+udd1,52,41035,hours_1,0.057779944,0.0011518276815362333,Uses total age-cell frequency
+udd1,53,41296,hours_1,0.0593762108,0.0011629478093617745,Uses total age-cell frequency
+udd1,54,42101,hours_1,0.0570057718,0.001129972115609378,Uses total age-cell frequency
+udd1,55,42583,hours_1,0.0551393749,0.001106105794570444,Uses total age-cell frequency
+udd1,56,42538,hours_1,0.0563496168,0.0011180533065796494,Uses total age-cell frequency
+udd1,57,41686,hours_1,0.0563258648,0.0011291973440931066,Uses total age-cell frequency
+udd1,58,40096,hours_1,0.0542946927,0.0011316342366709572,Uses total age-cell frequency
+udd1,59,38600,hours_1,0.0550518135,0.0011609036069908578,Uses total age-cell frequency
+udd1,60,36987,hours_1,0.0578581664,0.001213992275733719,Uses total age-cell frequency
+udd1,61,35482,hours_1,0.0615523364,0.0012759194392775028,Uses total age-cell frequency
+udd1,62,34081,hours_1,0.0618233033,0.001304554595963407,Uses total age-cell frequency
+udd1,63,32751,hours_1,0.0672651217,0.0013840819088407554,Uses total age-cell frequency
+udd1,64,31813,hours_1,0.0708515387,0.001438516628452891,Uses total age-cell frequency
+udd1,65,31074,hours_1,0.0767200875,0.0015098112513191968,Uses total age-cell frequency
+udd1,66,30479,hours_1,0.0778568851,0.0015347841985944811,Uses total age-cell frequency
+udd1,67,30295,hours_1,0.0827859383,0.0015831722227347964,Uses total age-cell frequency
+udd1,68,29842,hours_1,0.0816634274,0.0015852610123329443,Uses total age-cell frequency
+udd1,69,29091,hours_1,0.07679351,0.0015611058760430082,Uses total age-cell frequency
+udd1,70,28733,hours_1,0.0722862214,0.0015277218102385834,Uses total age-cell frequency
+udd1,71,28201,hours_1,0.0690046452,0.0015093177043471182,Uses total age-cell frequency
+udd1,72,27755,hours_1,0.0658259773,0.001488476338116762,Uses total age-cell frequency
+udd1,73,27615,hours_1,0.059967409,0.0014287510877519466,Uses total age-cell frequency
+udd1,74,27541,hours_1,0.0567880614,0.0013945796178282007,Uses total age-cell frequency
+udd1,75,27329,hours_1,0.0530206008,0.0013554413103115037,Uses total age-cell frequency
+udd1,76,25186,hours_1,0.0495116334,0.0013669336362937621,Uses total age-cell frequency
+udd1,77,22442,hours_1,0.0462971215,0.0014026611314735453,Uses total age-cell frequency
+udd1,78,19392,hours_1,0.0436262376,0.001466818589881631,Uses total age-cell frequency
+udd1,79,16359,hours_1,0.03973348,0.0015271996622671755,Uses total age-cell frequency
+udd1,80,13610,hours_1,0.0368846436,0.0016155964375791274,Uses total age-cell frequency
+udd1,81,11239,hours_1,0.0344336685,0.0017199620651680767,Uses total age-cell frequency
+udd1,82,7491,hours_1,0.0288346015,0.0019334532639831167,Uses total age-cell frequency
+udd1,83,4499,hours_1,0.0295621249,0.0025251878805889133,Uses total age-cell frequency
+udd1,84,1982,hours_1,0.0277497477,0.003689493305175329,Uses total age-cell frequency
+udd2,30,1113,hours_1,0.1545372866,0.01083468497962195,Uses total age-cell frequency
+udd2,31,2004,hours_1,0.1317365269,0.00755492246705394,Uses total age-cell frequency
+udd2,32,2718,hours_1,0.1026490066,0.005821485541403383,Uses total age-cell frequency
+udd2,33,3314,hours_1,0.0911285456,0.004999219425395878,Uses total age-cell frequency
+udd2,34,3924,hours_1,0.0751783894,0.004209310803828437,Uses total age-cell frequency
+udd2,35,4527,hours_1,0.0799646565,0.004031308612578717,Uses total age-cell frequency
+udd2,36,7085,hours_1,0.0640790402,0.0029094282968313923,Uses total age-cell frequency
+udd2,37,9565,hours_1,0.0552012546,0.0023350793378199915,Uses total age-cell frequency
+udd2,38,12100,hours_1,0.047107438,0.0019260786885454872,Uses total age-cell frequency
+udd2,39,14860,hours_1,0.0436069987,0.0016752780120093758,Uses total age-cell frequency
+udd2,40,14575,hours_1,0.0422641509,0.0016664974917874704,Uses total age-cell frequency
+udd2,41,14728,hours_1,0.0401955459,0.0016184841787262362,Uses total age-cell frequency
+udd2,42,15004,hours_1,0.0396560917,0.0015931799061881923,Uses total age-cell frequency
+udd2,43,15152,hours_1,0.0384107709,0.0015612998786816424,Uses total age-cell frequency
+udd2,44,15237,hours_1,0.0398372383,0.0015844090240253854,Uses total age-cell frequency
+udd2,45,15257,hours_1,0.0391295799,0.0015698220738157066,Uses total age-cell frequency
+udd2,46,15375,hours_1,0.0353821138,0.001489916674115613,Uses total age-cell frequency
+udd2,47,15578,hours_1,0.0360123251,0.0014928132182094652,Uses total age-cell frequency
+udd2,48,15708,hours_1,0.0339317545,0.0014445966897942432,Uses total age-cell frequency
+udd2,49,15636,hours_1,0.0375415707,0.0015201427721337761,Uses total age-cell frequency
+udd2,50,15191,hours_1,0.0366664472,0.0015248586128122972,Uses total age-cell frequency
+udd2,51,14835,hours_1,0.0387596899,0.001584755833185678,Uses total age-cell frequency
+udd2,52,14402,hours_1,0.0370781836,0.0015745024298947678,Uses total age-cell frequency
+udd2,53,14078,hours_1,0.0390680494,0.0016330019394618185,Uses total age-cell frequency
+udd2,54,13964,hours_1,0.0421798911,0.0017009430861511558,Uses total age-cell frequency
+udd2,55,13816,hours_1,0.0408946149,0.0016849036219101648,Uses total age-cell frequency
+udd2,56,13539,hours_1,0.039220031,0.0016682942086933168,Uses total age-cell frequency
+udd2,57,13004,hours_1,0.0385266072,0.0016877594070791055,Uses total age-cell frequency
+udd2,58,12185,hours_1,0.0397209684,0.001769277156146514,Uses total age-cell frequency
+udd2,59,11532,hours_1,0.0407561568,0.0018412332353128116,Uses total age-cell frequency
+udd2,60,11168,hours_1,0.041726361,0.0018921794590087658,Uses total age-cell frequency
+udd2,61,10557,hours_1,0.0483091787,0.002086856116872309,Uses total age-cell frequency
+udd2,62,10144,hours_1,0.0522476341,0.002209409072449815,Uses total age-cell frequency
+udd2,63,9703,hours_1,0.0594661445,0.002400872470119672,Uses total age-cell frequency
+udd2,64,9220,hours_1,0.0710412148,0.0026753952532962517,Uses total age-cell frequency
+udd2,65,8973,hours_1,0.082692522,0.0029075135799080582,Uses total age-cell frequency
+udd2,66,8725,hours_1,0.0967335244,0.003164562910328607,Uses total age-cell frequency
+udd2,67,8583,hours_1,0.1138296633,0.003428204918187778,Uses total age-cell frequency
+udd2,68,8433,hours_1,0.1162101269,0.003489839452330992,Uses total age-cell frequency
+udd2,69,8358,hours_1,0.1117492223,0.003446187235585408,Uses total age-cell frequency
+udd2,70,8294,hours_1,0.1122498191,0.0034662205611502546,Uses total age-cell frequency
+udd2,71,8097,hours_1,0.1085587255,0.0034571376160359027,Uses total age-cell frequency
+udd2,72,8065,hours_1,0.1003099814,0.003345155726703881,Uses total age-cell frequency
+udd2,73,8060,hours_1,0.0970223325,0.003296908084124983,Uses total age-cell frequency
+udd2,74,7998,hours_1,0.0873968492,0.003157898521882501,Uses total age-cell frequency
+udd2,75,7923,hours_1,0.0833017796,0.003104527462115334,Uses total age-cell frequency
+udd2,76,7366,hours_1,0.0772468097,0.0031107649463776154,Uses total age-cell frequency
+udd2,77,6573,hours_1,0.0736345656,0.0032214412785721387,Uses total age-cell frequency
+udd2,78,5726,hours_1,0.0693328676,0.00335692082221633,Uses total age-cell frequency
+udd2,79,4695,hours_1,0.058998935,0.0034387400381261255,Uses total age-cell frequency
+udd2,80,3872,hours_1,0.0570764463,0.003728198526159166,Uses total age-cell frequency
+udd2,81,3178,hours_1,0.0512901196,0.00391297092788974,Uses total age-cell frequency
+udd2,82,2067,hours_1,0.0425737784,0.0044407213046134784,Uses total age-cell frequency
+udd2,83,1296,hours_1,0.0401234568,0.005451353681019959,Uses total age-cell frequency
+udd2,84,578,hours_1,0.0346020761,0.007602218355624322,Uses total age-cell frequency
+udd3,30,1301,hours_1,0.1037663336,0.008454739180647135,Uses total age-cell frequency
+udd3,31,2482,hours_1,0.0882352941,0.005693268533763085,Uses total age-cell frequency
+udd3,32,3552,hours_1,0.0703828829,0.004291895144841546,Uses total age-cell frequency
+udd3,33,4342,hours_1,0.0670198065,0.0037948349111556236,Uses total age-cell frequency
+udd3,34,4950,hours_1,0.0602020202,0.003380805503320261,Uses total age-cell frequency
+udd3,35,5483,hours_1,0.0563560095,0.0031143332545091433,Uses total age-cell frequency
+udd3,36,8619,hours_1,0.0474533008,0.002290065537805031,Uses total age-cell frequency
+udd3,37,11739,hours_1,0.0396115512,0.0018001920421622417,Uses total age-cell frequency
+udd3,38,14733,hours_1,0.0331907962,0.0014758208068968875,Uses total age-cell frequency
+udd3,39,17853,hours_1,0.0325995631,0.0013290870514729883,Uses total age-cell frequency
+udd3,40,17484,hours_1,0.0309997712,0.0013107527728283533,Uses total age-cell frequency
+udd3,41,16899,hours_1,0.0279306468,0.0012675310858176352,Uses total age-cell frequency
+udd3,42,16541,hours_1,0.0266005683,0.0012511521337136469,Uses total age-cell frequency
+udd3,43,15978,hours_1,0.0276630367,0.0012974693755949454,Uses total age-cell frequency
+udd3,44,15429,hours_1,0.0279344092,0.001326626416424531,Uses total age-cell frequency
+udd3,45,15154,hours_1,0.0276494655,0.0013319599219094164,Uses total age-cell frequency
+udd3,46,14897,hours_1,0.0264482782,0.0013147064933822243,Uses total age-cell frequency
+udd3,47,14703,hours_1,0.024892879,0.0012848746164708454,Uses total age-cell frequency
+udd3,48,14631,hours_1,0.0265190349,0.0013283287859856023,Uses total age-cell frequency
+udd3,49,14114,hours_1,0.0250106277,0.0013144291446628978,Uses total age-cell frequency
+udd3,50,13301,hours_1,0.0278174573,0.001425904624228383,Uses total age-cell frequency
+udd3,51,12629,hours_1,0.0281890886,0.001472810667830427,Uses total age-cell frequency
+udd3,52,11941,hours_1,0.0309019345,0.0015836395815041586,Uses total age-cell frequency
+udd3,53,11340,hours_1,0.0283950617,0.001559767036234551,Uses total age-cell frequency
+udd3,54,11158,hours_1,0.0302025453,0.001620201812322998,Uses total age-cell frequency
+udd3,55,10794,hours_1,0.0339077265,0.0017420773461716847,Uses total age-cell frequency
+udd3,56,10445,hours_1,0.03255146,0.0017363807032343772,Uses total age-cell frequency
+udd3,57,9859,hours_1,0.0346891165,0.0018429509960154432,Uses total age-cell frequency
+udd3,58,9125,hours_1,0.0356164384,0.0019401428478886778,Uses total age-cell frequency
+udd3,59,8551,hours_1,0.0363700152,0.0020245030747342518,Uses total age-cell frequency
+udd3,60,8036,hours_1,0.0390741663,0.002161572620944003,Uses total age-cell frequency
+udd3,61,7489,hours_1,0.0376552277,0.0021997132433947226,Uses total age-cell frequency
+udd3,62,7287,hours_1,0.0448744339,0.002425243457852254,Uses total age-cell frequency
+udd3,63,7168,hours_1,0.0496651786,0.002566051236850837,Uses total age-cell frequency
+udd3,64,7025,hours_1,0.0609252669,0.002853813799689344,Uses total age-cell frequency
+udd3,65,6992,hours_1,0.0759439359,0.0031680716966593437,Uses total age-cell frequency
+udd3,66,6812,hours_1,0.0933646506,0.0035250902675469276,Uses total age-cell frequency
+udd3,67,6754,hours_1,0.1128220314,0.0038496549389990782,Uses total age-cell frequency
+udd3,68,6615,hours_1,0.1300075586,0.004135015262120492,Uses total age-cell frequency
+udd3,69,6435,hours_1,0.1314685315,0.0042123981126431,Uses total age-cell frequency
+udd3,70,6337,hours_1,0.1371311346,0.004321142420702692,Uses total age-cell frequency
+udd3,71,6224,hours_1,0.1460475578,0.004476403225670615,Uses total age-cell frequency
+udd3,72,6085,hours_1,0.1377156943,0.004417602830126797,Uses total age-cell frequency
+udd3,73,5938,hours_1,0.1359043449,0.004447106035898749,Uses total age-cell frequency
+udd3,74,5880,hours_1,0.1341836735,0.004445023496988878,Uses total age-cell frequency
+udd3,75,5681,hours_1,0.1249779968,0.004387467090851779,Uses total age-cell frequency
+udd3,76,5187,hours_1,0.1179872759,0.004479163219556275,Uses total age-cell frequency
+udd3,77,4611,hours_1,0.1084363479,0.004578951645116718,Uses total age-cell frequency
+udd3,78,4006,hours_1,0.1055916126,0.004855424108378643,Uses total age-cell frequency
+udd3,79,3348,hours_1,0.0985663082,0.005151555862456423,Uses total age-cell frequency
+udd3,80,2785,hours_1,0.0807899461,0.005163847907302452,Uses total age-cell frequency
+udd3,81,2244,hours_1,0.0646167558,0.005189863572314297,Uses total age-cell frequency
+udd3,82,1484,hours_1,0.0592991914,0.0061310265087296265,Uses total age-cell frequency
+udd3,83,933,hours_1,0.0493033226,0.007087911072109406,Uses total age-cell frequency
+udd3,84,449,hours_1,0.0512249443,0.010403972748738112,Uses total age-cell frequency
+udd1,30,2840,hours_2,0.1080985915,0.005826520414997181,Uses total age-cell frequency
+udd1,31,5097,hours_2,0.0980969198,0.004166297746094687,Uses total age-cell frequency
+udd1,32,7282,hours_2,0.0961274375,0.0034542355305845944,Uses total age-cell frequency
+udd1,33,9171,hours_2,0.0858139788,0.0029247446870282142,Uses total age-cell frequency
+udd1,34,11180,hours_2,0.081216458,0.002583495589090335,Uses total age-cell frequency
+udd1,35,13112,hours_2,0.0790115924,0.00235579783838509,Uses total age-cell frequency
+udd1,36,17702,hours_2,0.07631906,0.001995567071818575,Uses total age-cell frequency
+udd1,37,22115,hours_2,0.0699525209,0.001715184222470771,Uses total age-cell frequency
+udd1,38,26699,hours_2,0.0680175287,0.0015408728347377878,Uses total age-cell frequency
+udd1,39,31731,hours_2,0.0629037849,0.001362977231911488,Uses total age-cell frequency
+udd1,40,32214,hours_2,0.0626435711,0.001350107369104211,Uses total age-cell frequency
+udd1,41,32959,hours_2,0.0602263418,0.0013104421779777853,Uses total age-cell frequency
+udd1,42,33929,hours_2,0.0575319049,0.0012641603819396497,Uses total age-cell frequency
+udd1,43,34810,hours_2,0.0554151106,0.0012262600718364065,Uses total age-cell frequency
+udd1,44,35491,hours_2,0.0567467809,0.0012280771334046918,Uses total age-cell frequency
+udd1,45,36530,hours_2,0.0545305229,0.0011880063212054033,Uses total age-cell frequency
+udd1,46,37648,hours_2,0.0524065023,0.001148504413959016,Uses total age-cell frequency
+udd1,47,38609,hours_2,0.0495221321,0.0011041457238933944,Uses total age-cell frequency
+udd1,48,39731,hours_2,0.0501623417,0.0010950875591040489,Uses total age-cell frequency
+udd1,49,40045,hours_2,0.0498439256,0.0010875004494888488,Uses total age-cell frequency
+udd1,50,40332,hours_2,0.0478528216,0.0010628719319140307,Uses total age-cell frequency
+udd1,51,40778,hours_2,0.0466673206,0.0010445174812094254,Uses total age-cell frequency
+udd1,52,41035,hours_2,0.0463750457,0.0010381348248745675,Uses total age-cell frequency
+udd1,53,41296,hours_2,0.0447985277,0.0010179474729707025,Uses total age-cell frequency
+udd1,54,42101,hours_2,0.0450345597,0.0010106960822572613,Uses total age-cell frequency
+udd1,55,42583,hours_2,0.0444543597,0.0009987683465998794,Uses total age-cell frequency
+udd1,56,42538,hours_2,0.0444778786,0.0009995485006794248,Uses total age-cell frequency
+udd1,57,41686,hours_2,0.0428201315,0.0009915752182179296,Uses total age-cell frequency
+udd1,58,40096,hours_2,0.0431464485,0.0010147165381913371,Uses total age-cell frequency
+udd1,59,38600,hours_2,0.043238342,0.0010352440549919332,Uses total age-cell frequency
+udd1,60,36987,hours_2,0.0436369535,0.0010622189651592572,Uses total age-cell frequency
+udd1,61,35482,hours_2,0.0432331887,0.0010797112821044473,Uses total age-cell frequency
+udd1,62,34081,hours_2,0.0443942373,0.0011156976413512737,Uses total age-cell frequency
+udd1,63,32751,hours_2,0.0475710665,0.0011761844992375157,Uses total age-cell frequency
+udd1,64,31813,hours_2,0.0463018263,0.0011781544377581718,Uses total age-cell frequency
+udd1,65,31074,hours_2,0.0473064298,0.0012043095298290424,Uses total age-cell frequency
+udd1,66,30479,hours_2,0.0360904229,0.0010683505457980311,Uses total age-cell frequency
+udd1,67,30295,hours_2,0.0384221819,0.0011043271554883596,Uses total age-cell frequency
+udd1,68,29842,hours_2,0.0315997587,0.0010126406675504552,Uses total age-cell frequency
+udd1,69,29091,hours_2,0.0279811626,0.0009669207788116671,Uses total age-cell frequency
+udd1,70,28733,hours_2,0.0253019177,0.0009264485133560915,Uses total age-cell frequency
+udd1,71,28201,hours_2,0.0194673948,0.0008227211912272667,Uses total age-cell frequency
+udd1,72,27755,hours_2,0.0192037471,0.0008237810021588854,Uses total age-cell frequency
+udd1,73,27615,hours_2,0.0164403404,0.0007652145741357449,Uses total age-cell frequency
+udd1,74,27541,hours_2,0.0134708253,0.0006946438834035003,Uses total age-cell frequency
+udd1,75,27329,hours_2,0.0135753229,0.0006999953870974111,Uses total age-cell frequency
+udd1,76,25186,hours_2,0.011355515,0.0006676423731352384,Uses total age-cell frequency
+udd1,77,22442,hours_2,0.0105159968,0.0006809242989268433,Uses total age-cell frequency
+udd1,78,19392,hours_2,0.0086633663,0.0006654916567716492,Uses total age-cell frequency
+udd1,79,16359,hours_2,0.0067241274,0.0006389612684507127,Uses total age-cell frequency
+udd1,80,13610,hours_2,0.006098457,0.0006673483680921346,Uses total age-cell frequency
+udd1,81,11239,hours_2,0.005516505,0.0006986617419108037,Uses total age-cell frequency
+udd1,82,7491,hours_2,0.0044052863,0.0007651709291892821,Uses total age-cell frequency
+udd1,83,4499,hours_2,0.0031118026,0.0008303692348246553,Uses total age-cell frequency
+udd1,84,1982,hours_2,0.0015136226,0.00087322879595392,Uses total age-cell frequency
+udd2,30,1113,hours_2,0.1374663073,0.010321399435389251,Uses total age-cell frequency
+udd2,31,2004,hours_2,0.120758483,0.0072788716122674955,Uses total age-cell frequency
+udd2,32,2718,hours_2,0.102281089,0.005812234559850869,Uses total age-cell frequency
+udd2,33,3314,hours_2,0.0983705492,0.005173331883723116,Uses total age-cell frequency
+udd2,34,3924,hours_2,0.0891946993,0.004550067068228536,Uses total age-cell frequency
+udd2,35,4527,hours_2,0.084824387,0.004141020086122771,Uses total age-cell frequency
+udd2,36,7085,hours_2,0.0760762174,0.0031497247372445796,Uses total age-cell frequency
+udd2,37,9565,hours_2,0.063565081,0.00249462698049639,Uses total age-cell frequency
+udd2,38,12100,hours_2,0.0538842975,0.0020526294360880544,Uses total age-cell frequency
+udd2,39,14860,hours_2,0.0539030956,0.0018525300419084804,Uses total age-cell frequency
+udd2,40,14575,hours_2,0.0501543739,0.0018079092988432363,Uses total age-cell frequency
+udd2,41,14728,hours_2,0.0516702879,0.0018240142704173813,Uses total age-cell frequency
+udd2,42,15004,hours_2,0.0477872567,0.0017414841128460352,Uses total age-cell frequency
+udd2,43,15152,hours_2,0.0442845829,0.0016713045456954628,Uses total age-cell frequency
+udd2,44,15237,hours_2,0.0439062808,0.0016598308190469136,Uses total age-cell frequency
+udd2,45,15257,hours_2,0.0407026283,0.001599754281401376,Uses total age-cell frequency
+udd2,46,15375,hours_2,0.0433821138,0.0016429223616241891,Uses total age-cell frequency
+udd2,47,15578,hours_2,0.0396713314,0.0015638406045520488,Uses total age-cell frequency
+udd2,48,15708,hours_2,0.0413801884,0.001589128386978783,Uses total age-cell frequency
+udd2,49,15636,hours_2,0.036838066,0.001506382407244147,Uses total age-cell frequency
+udd2,50,15191,hours_2,0.0385096439,0.0015612197468852125,Uses total age-cell frequency
+udd2,51,14835,hours_2,0.0373441186,0.001556692617276813,Uses total age-cell frequency
+udd2,52,14402,hours_2,0.0370781836,0.0015745024298947678,Uses total age-cell frequency
+udd2,53,14078,hours_2,0.0364398352,0.0015792727445447616,Uses total age-cell frequency
+udd2,54,13964,hours_2,0.0370237754,0.0015978765148061537,Uses total age-cell frequency
+udd2,55,13816,hours_2,0.0339461494,0.0015406527547129432,Uses total age-cell frequency
+udd2,56,13539,hours_2,0.0372996529,0.0016285633811060597,Uses total age-cell frequency
+udd2,57,13004,hours_2,0.0369117195,0.0016533953317354915,Uses total age-cell frequency
+udd2,58,12185,hours_2,0.0357816988,0.0016826949687622867,Uses total age-cell frequency
+udd2,59,11532,hours_2,0.0378078391,0.001776108604830323,Uses total age-cell frequency
+udd2,60,11168,hours_2,0.0386819484,0.0018247359012303322,Uses total age-cell frequency
+udd2,61,10557,hours_2,0.0403523728,0.0019152266433820544,Uses total age-cell frequency
+udd2,62,10144,hours_2,0.0424881703,0.0020026334615217156,Uses total age-cell frequency
+udd2,63,9703,hours_2,0.0518396372,0.002250706468153761,Uses total age-cell frequency
+udd2,64,9220,hours_2,0.0503253796,0.0022767507331935065,Uses total age-cell frequency
+udd2,65,8973,hours_2,0.0573944054,0.0024554491976318607,Uses total age-cell frequency
+udd2,66,8725,hours_2,0.0528366762,0.002394955583346952,Uses total age-cell frequency
+udd2,67,8583,hours_2,0.0539438425,0.002438427465551863,Uses total age-cell frequency
+udd2,68,8433,hours_2,0.0462468872,0.002287010651264668,Uses total age-cell frequency
+udd2,69,8358,hours_2,0.0429528595,0.0022177445583636056,Uses total age-cell frequency
+udd2,70,8294,hours_2,0.0360501567,0.0020469101589191585,Uses total age-cell frequency
+udd2,71,8097,hours_2,0.0351982216,0.0020479405185619775,Uses total age-cell frequency
+udd2,72,8065,hours_2,0.0277743335,0.001829798124865022,Uses total age-cell frequency
+udd2,73,8060,hours_2,0.0244416873,0.001719985112389008,Uses total age-cell frequency
+udd2,74,7998,hours_2,0.0216304076,0.0016266462823595704,Uses total age-cell frequency
+udd2,75,7923,hours_2,0.0196895115,0.0015608259154751053,Uses total age-cell frequency
+udd2,76,7366,hours_2,0.0172413793,0.0015166786624266242,Uses total age-cell frequency
+udd2,77,6573,hours_2,0.0132359653,0.0014096219373198311,Uses total age-cell frequency
+udd2,78,5726,hours_2,0.0115263709,0.0014105976860794476,Uses total age-cell frequency
+udd2,79,4695,hours_2,0.0091586794,0.0013902749087751523,Uses total age-cell frequency
+udd2,80,3872,hours_2,0.007231405,0.0013616568759271946,Uses total age-cell frequency
+udd2,81,3178,hours_2,0.0066079295,0.0014371963266101978,Uses total age-cell frequency
+udd2,82,2067,hours_2,0.0053217223,0.001600284440694232,Uses total age-cell frequency
+udd2,83,1296,hours_2,0.0038580247,0.0017220296365023544,Uses total age-cell frequency
+udd2,84,578,hours_2,0.0017301038,0.0017286065256403927,Uses total age-cell frequency
+udd3,30,1301,hours_2,0.0960799385,0.008170388780177099,Uses total age-cell frequency
+udd3,31,2482,hours_2,0.0898468977,0.005739946986480718,Uses total age-cell frequency
+udd3,32,3552,hours_2,0.0836148649,0.004644556876348233,Uses total age-cell frequency
+udd3,33,4342,hours_2,0.070935053,0.003895906958698497,Uses total age-cell frequency
+udd3,34,4950,hours_2,0.0713131313,0.003657773474222405,Uses total age-cell frequency
+udd3,35,5483,hours_2,0.0744118183,0.0035442205216145895,Uses total age-cell frequency
+udd3,36,8619,hours_2,0.0542986425,0.0024408610202799786,Uses total age-cell frequency
+udd3,37,11739,hours_2,0.049152398,0.001995318649590587,Uses total age-cell frequency
+udd3,38,14733,hours_2,0.0413357768,0.0016400259403236707,Uses total age-cell frequency
+udd3,39,17853,hours_2,0.0393771355,0.001455602917046854,Uses total age-cell frequency
+udd3,40,17484,hours_2,0.0366048959,0.0014202062077018148,Uses total age-cell frequency
+udd3,41,16899,hours_2,0.0394697911,0.0014978124113776878,Uses total age-cell frequency
+udd3,42,16541,hours_2,0.0347621063,0.0014242602133339635,Uses total age-cell frequency
+udd3,43,15978,hours_2,0.0356740518,0.0014673270959024236,Uses total age-cell frequency
+udd3,44,15429,hours_2,0.0361008491,0.001501777584237832,Uses total age-cell frequency
+udd3,45,15154,hours_2,0.0335225023,0.0014621786781054663,Uses total age-cell frequency
+udd3,46,14897,hours_2,0.0323555078,0.0014497149438678612,Uses total age-cell frequency
+udd3,47,14703,hours_2,0.0319662654,0.0014507354310551045,Uses total age-cell frequency
+udd3,48,14631,hours_2,0.0326703575,0.0014696948976304536,Uses total age-cell frequency
+udd3,49,14114,hours_2,0.0318123849,0.0014772459877427277,Uses total age-cell frequency
+udd3,50,13301,hours_2,0.0326291256,0.0015404835846754403,Uses total age-cell frequency
+udd3,51,12629,hours_2,0.0304853908,0.00152981382226981,Uses total age-cell frequency
+udd3,52,11941,hours_2,0.0296457583,0.001552122829822393,Uses total age-cell frequency
+udd3,53,11340,hours_2,0.0318342152,0.001648600441724748,Uses total age-cell frequency
+udd3,54,11158,hours_2,0.0324430902,0.0016772823921996224,Uses total age-cell frequency
+udd3,55,10794,hours_2,0.0340930146,0.0017466631135374519,Uses total age-cell frequency
+udd3,56,10445,hours_2,0.0336045955,0.0017632851173593955,Uses total age-cell frequency
+udd3,57,9859,hours_2,0.0324576529,0.0017847488615077818,Uses total age-cell frequency
+udd3,58,9125,hours_2,0.0370410959,0.001977103266807123,Uses total age-cell frequency
+udd3,59,8551,hours_2,0.0376564145,0.0020586196201862117,Uses total age-cell frequency
+udd3,60,8036,hours_2,0.0430562469,0.0022643383770045698,Uses total age-cell frequency
+udd3,61,7489,hours_2,0.0355187608,0.002138768994606245,Uses total age-cell frequency
+udd3,62,7287,hours_2,0.0414436668,0.002334874394023812,Uses total age-cell frequency
+udd3,63,7168,hours_2,0.0461774554,0.0024788474000201456,Uses total age-cell frequency
+udd3,64,7025,hours_2,0.0523843416,0.002658236976417819,Uses total age-cell frequency
+udd3,65,6992,hours_2,0.0599256293,0.0028384856188232565,Uses total age-cell frequency
+udd3,66,6812,hours_2,0.058719906,0.0028484906182079427,Uses total age-cell frequency
+udd3,67,6754,hours_2,0.0667752443,0.0030375283503571568,Uses total age-cell frequency
+udd3,68,6615,hours_2,0.0604686319,0.0029305948992505897,Uses total age-cell frequency
+udd3,69,6435,hours_2,0.0571872572,0.0028945968155819498,Uses total age-cell frequency
+udd3,70,6337,hours_2,0.0568092157,0.0029078186491667034,Uses total age-cell frequency
+udd3,71,6224,hours_2,0.0467544987,0.0026759579991578754,Uses total age-cell frequency
+udd3,72,6085,hours_2,0.0410846343,0.0025444830398184274,Uses total age-cell frequency
+udd3,73,5938,hours_2,0.0363758841,0.002429632074374873,Uses total age-cell frequency
+udd3,74,5880,hours_2,0.0295918367,0.0022099096505033516,Uses total age-cell frequency
+udd3,75,5681,hours_2,0.0308044358,0.0022924503775448033,Uses total age-cell frequency
+udd3,76,5187,hours_2,0.023713129,0.0021126377337690565,Uses total age-cell frequency
+udd3,77,4611,hours_2,0.0223378877,0.002176295595401686,Uses total age-cell frequency
+udd3,78,4006,hours_2,0.0167249126,0.0020261144501195175,Uses total age-cell frequency
+udd3,79,3348,hours_2,0.0128434886,0.0019459952904425624,Uses total age-cell frequency
+udd3,80,2785,hours_2,0.0104129264,0.0019235381601166225,Uses total age-cell frequency
+udd3,81,2244,hours_2,0.006684492,0.0017201502606480738,Uses total age-cell frequency
+udd3,82,1484,hours_2,0.0074123989,0.0022266238876439072,Uses total age-cell frequency
+udd3,83,933,hours_2,0.0042872454,0.0021390226572105806,Uses total age-cell frequency
+udd3,84,449,hours_2,0.0,0.0,Uses total age-cell frequency
+udd1,30,2840,hours_3,0.1084507042,0.00583485003966647,Uses total age-cell frequency
+udd1,31,5097,hours_3,0.1012360212,0.004225061611070564,Uses total age-cell frequency
+udd1,32,7282,hours_3,0.0994232354,0.0035065414537082825,Uses total age-cell frequency
+udd1,33,9171,hours_3,0.1036964344,0.003183472679039799,Uses total age-cell frequency
+udd1,34,11180,hours_3,0.0994633274,0.0028304878291297345,Uses total age-cell frequency
+udd1,35,13112,hours_3,0.1045607077,0.002672193236843696,Uses total age-cell frequency
+udd1,36,17702,hours_3,0.0982939781,0.002237611950357781,Uses total age-cell frequency
+udd1,37,22115,hours_3,0.0951842641,0.001973418425832658,Uses total age-cell frequency
+udd1,38,26699,hours_3,0.0934866474,0.0017816172041403198,Uses total age-cell frequency
+udd1,39,31731,hours_3,0.0898490435,0.0016053567721710758,Uses total age-cell frequency
+udd1,40,32214,hours_3,0.0900540138,0.001594913069640975,Uses total age-cell frequency
+udd1,41,32959,hours_3,0.0858035741,0.0015427140527699578,Uses total age-cell frequency
+udd1,42,33929,hours_3,0.085325238,0.0015166542007455748,Uses total age-cell frequency
+udd1,43,34810,hours_3,0.0850617639,0.0014952405601530551,Uses total age-cell frequency
+udd1,44,35491,hours_3,0.0792313544,0.0014337211201329695,Uses total age-cell frequency
+udd1,45,36530,hours_3,0.0787571859,0.0014093125372991154,Uses total age-cell frequency
+udd1,46,37648,hours_3,0.0762324692,0.001367667053932353,Uses total age-cell frequency
+udd1,47,38609,hours_3,0.0751897226,0.0013420271080220347,Uses total age-cell frequency
+udd1,48,39731,hours_3,0.0714555385,0.0012922738380231288,Uses total age-cell frequency
+udd1,49,40045,hours_3,0.070320889,0.0012777166780465119,Uses total age-cell frequency
+udd1,50,40332,hours_3,0.0698204899,0.0012689658976204653,Uses total age-cell frequency
+udd1,51,40778,hours_3,0.066874295,0.0012370484918612407,Uses total age-cell frequency
+udd1,52,41035,hours_3,0.0671134397,0.0012352132688172822,Uses total age-cell frequency
+udd1,53,41296,hours_3,0.0668829911,0.001229339688759101,Uses total age-cell frequency
+udd1,54,42101,hours_3,0.0644402746,0.0011966530286784312,Uses total age-cell frequency
+udd1,55,42583,hours_3,0.0643684099,0.001189243267493641,Uses total age-cell frequency
+udd1,56,42538,hours_3,0.0642954535,0.0011892439982196489,Uses total age-cell frequency
+udd1,57,41686,hours_3,0.0635465144,0.0011947962755573247,Uses total age-cell frequency
+udd1,58,40096,hours_3,0.061277933,0.001197760654211734,Uses total age-cell frequency
+udd1,59,38600,hours_3,0.0641450777,0.001247074158234503,Uses total age-cell frequency
+udd1,60,36987,hours_3,0.0634276908,0.0012673178537371092,Uses total age-cell frequency
+udd1,61,35482,hours_3,0.0656389155,0.0013147222828494647,Uses total age-cell frequency
+udd1,62,34081,hours_3,0.0674569408,0.0013585999782640566,Uses total age-cell frequency
+udd1,63,32751,hours_3,0.0684864584,0.0013956761529034037,Uses total age-cell frequency
+udd1,64,31813,hours_3,0.0596925785,0.0013282896504643858,Uses total age-cell frequency
+udd1,65,31074,hours_3,0.0552873785,0.0012964753893933939,Uses total age-cell frequency
+udd1,66,30479,hours_3,0.0468191214,0.0012100377895715012,Uses total age-cell frequency
+udd1,67,30295,hours_3,0.039973593,0.0011254927565131358,Uses total age-cell frequency
+udd1,68,29842,hours_3,0.0289859929,0.000971164670636326,Uses total age-cell frequency
+udd1,69,29091,hours_3,0.022721804,0.0008736775659181141,Uses total age-cell frequency
+udd1,70,28733,hours_3,0.0184108864,0.0007930703788629058,Uses total age-cell frequency
+udd1,71,28201,hours_3,0.0150349278,0.0007246508972931206,Uses total age-cell frequency
+udd1,72,27755,hours_3,0.011385336,0.0006368187385093998,Uses total age-cell frequency
+udd1,73,27615,hours_3,0.00854608,0.0005539202220604675,Uses total age-cell frequency
+udd1,74,27541,hours_3,0.0076249955,0.0005241647987015627,Uses total age-cell frequency
+udd1,75,27329,hours_3,0.0064034542,0.0004825033355883769,Uses total age-cell frequency
+udd1,76,25186,hours_3,0.0048042563,0.00043570018026375354,Uses total age-cell frequency
+udd1,77,22442,hours_3,0.0043222529,0.00043790883630197123,Uses total age-cell frequency
+udd1,78,19392,hours_3,0.0028877888,0.00038533941174575495,Uses total age-cell frequency
+udd1,79,16359,hours_3,0.00311755,0.0004358633101230322,Uses total age-cell frequency
+udd1,80,13610,hours_3,0.0031594416,0.0004810485981348847,Uses total age-cell frequency
+udd1,81,11239,hours_3,0.0020464454,0.0004262765184553196,Uses total age-cell frequency
+udd1,82,7491,hours_3,0.0017354158,0.00048089992231491055,Uses total age-cell frequency
+udd1,83,4499,hours_3,0.0017781729,0.0006281198639504679,Uses total age-cell frequency
+udd1,84,1982,hours_3,0.0005045409,0.0005044135870906817,Uses total age-cell frequency
+udd2,30,1113,hours_3,0.1132075472,0.00949732068222528,Uses total age-cell frequency
+udd2,31,2004,hours_3,0.0903193613,0.006403037510312048,Uses total age-cell frequency
+udd2,32,2718,hours_3,0.1081677704,0.005957523914107022,Uses total age-cell frequency
+udd2,33,3314,hours_3,0.1007845504,0.0052294089921291614,Uses total age-cell frequency
+udd2,34,3924,hours_3,0.0976044852,0.0047377141308588685,Uses total age-cell frequency
+udd2,35,4527,hours_3,0.0967528164,0.004393694623552458,Uses total age-cell frequency
+udd2,36,7085,hours_3,0.0844036697,0.0033026515777570538,Uses total age-cell frequency
+udd2,37,9565,hours_3,0.0762153685,0.002713089721969643,Uses total age-cell frequency
+udd2,38,12100,hours_3,0.0744628099,0.0023865688196083893,Uses total age-cell frequency
+udd2,39,14860,hours_3,0.0719380888,0.0021196224837790835,Uses total age-cell frequency
+udd2,40,14575,hours_3,0.0701886792,0.0021160536185990757,Uses total age-cell frequency
+udd2,41,14728,hours_3,0.0669473112,0.002059433467920758,Uses total age-cell frequency
+udd2,42,15004,hours_3,0.068315116,0.002059630915283574,Uses total age-cell frequency
+udd2,43,15152,hours_3,0.0658658923,0.002015115408356839,Uses total age-cell frequency
+udd2,44,15237,hours_3,0.0632670473,0.0019721818081994214,Uses total age-cell frequency
+udd2,45,15257,hours_3,0.0641017238,0.0019829629728082116,Uses total age-cell frequency
+udd2,46,15375,hours_3,0.0607479675,0.0019264129342241106,Uses total age-cell frequency
+udd2,47,15578,hours_3,0.0596995763,0.0018982923194900668,Uses total age-cell frequency
+udd2,48,15708,hours_3,0.0536032595,0.001797098042545533,Uses total age-cell frequency
+udd2,49,15636,hours_3,0.0571757483,0.0018567715379180206,Uses total age-cell frequency
+udd2,50,15191,hours_3,0.0576657231,0.001891333798560805,Uses total age-cell frequency
+udd2,51,14835,hours_3,0.0583080553,0.0019238664933589084,Uses total age-cell frequency
+udd2,52,14402,hours_3,0.0542285794,0.0018871038630346836,Uses total age-cell frequency
+udd2,53,14078,hours_3,0.0583179429,0.0019750712416799206,Uses total age-cell frequency
+udd2,54,13964,hours_3,0.0540676024,0.001913787376739731,Uses total age-cell frequency
+udd2,55,13816,hours_3,0.0525477707,0.0018982991216314556,Uses total age-cell frequency
+udd2,56,13539,hours_3,0.0532535638,0.0019297359326655213,Uses total age-cell frequency
+udd2,57,13004,hours_3,0.0563672716,0.0020224440882641746,Uses total age-cell frequency
+udd2,58,12185,hours_3,0.0517849815,0.002007439940872981,Uses total age-cell frequency
+udd2,59,11532,hours_3,0.0520291363,0.0020680854829234715,Uses total age-cell frequency
+udd2,60,11168,hours_3,0.0545308023,0.002148606738135442,Uses total age-cell frequency
+udd2,61,10557,hours_3,0.0602443876,0.0023157704094014767,Uses total age-cell frequency
+udd2,62,10144,hours_3,0.0660488959,0.0024659838654228707,Uses total age-cell frequency
+udd2,63,9703,hours_3,0.0706997836,0.0026021602937292055,Uses total age-cell frequency
+udd2,64,9220,hours_3,0.0673535792,0.00261019764232331,Uses total age-cell frequency
+udd2,65,8973,hours_3,0.0726624317,0.0027403438307350802,Uses total age-cell frequency
+udd2,66,8725,hours_3,0.0649856734,0.0026389747000234256,Uses total age-cell frequency
+udd2,67,8583,hours_3,0.0593032739,0.0025494388223364483,Uses total age-cell frequency
+udd2,68,8433,hours_3,0.0425708526,0.0021984593828674654,Uses total age-cell frequency
+udd2,69,8358,hours_3,0.0337401292,0.0019750093636002343,Uses total age-cell frequency
+udd2,70,8294,hours_3,0.0268869062,0.0017761108145698768,Uses total age-cell frequency
+udd2,71,8097,hours_3,0.0198839076,0.0015514134721951514,Uses total age-cell frequency
+udd2,72,8065,hours_3,0.0171109733,0.001444067234891567,Uses total age-cell frequency
+udd2,73,8060,hours_3,0.0131513648,0.0012689460664623373,Uses total age-cell frequency
+udd2,74,7998,hours_3,0.0111277819,0.0011729613189752708,Uses total age-cell frequency
+udd2,75,7923,hours_3,0.0090874669,0.0010660909428562662,Uses total age-cell frequency
+udd2,76,7366,hours_3,0.0058376324,0.000887628369713893,Uses total age-cell frequency
+udd2,77,6573,hours_3,0.0044119884,0.0008174763440960171,Uses total age-cell frequency
+udd2,78,5726,hours_3,0.0043660496,0.0008713015956837193,Uses total age-cell frequency
+udd2,79,4695,hours_3,0.0042598509,0.000950500632653728,Uses total age-cell frequency
+udd2,80,3872,hours_3,0.0046487603,0.0010931734699729842,Uses total age-cell frequency
+udd2,81,3178,hours_3,0.0034612964,0.0010418124285695625,Uses total age-cell frequency
+udd2,82,2067,hours_3,0.0014513788,0.0008373456286264537,Uses total age-cell frequency
+udd2,83,1296,hours_3,0.0015432099,0.0010903718654393904,Uses total age-cell frequency
+udd2,84,578,hours_3,0.0,0.0,Uses total age-cell frequency
+udd3,30,1301,hours_3,0.1029976941,0.008426978432144948,Uses total age-cell frequency
+udd3,31,2482,hours_3,0.1019339243,0.0060731307207510625,Uses total age-cell frequency
+udd3,32,3552,hours_3,0.0951576577,0.004923476289454233,Uses total age-cell frequency
+udd3,33,4342,hours_3,0.0833717181,0.0041952813615637324,Uses total age-cell frequency
+udd3,34,4950,hours_3,0.0802020202,0.003860435317365568,Uses total age-cell frequency
+udd3,35,5483,hours_3,0.0793361299,0.0036498661065508605,Uses total age-cell frequency
+udd3,36,8619,hours_3,0.072862281,0.002799594077604682,Uses total age-cell frequency
+udd3,37,11739,hours_3,0.0695970696,0.0023486346315860418,Uses total age-cell frequency
+udd3,38,14733,hours_3,0.066110093,0.0020470861996701936,Uses total age-cell frequency
+udd3,39,17853,hours_3,0.0632386714,0.0018215883623203795,Uses total age-cell frequency
+udd3,40,17484,hours_3,0.0603408831,0.001800821213294299,Uses total age-cell frequency
+udd3,41,16899,hours_3,0.0550920173,0.0017551271873746243,Uses total age-cell frequency
+udd3,42,16541,hours_3,0.0545916208,0.0017664113109803212,Uses total age-cell frequency
+udd3,43,15978,hours_3,0.0509450494,0.001739544186869601,Uses total age-cell frequency
+udd3,44,15429,hours_3,0.0502300862,0.0017584186297746162,Uses total age-cell frequency
+udd3,45,15154,hours_3,0.0499538076,0.0017696729711603857,Uses total age-cell frequency
+udd3,46,14897,hours_3,0.049003155,0.0017686917512229753,Uses total age-cell frequency
+udd3,47,14703,hours_3,0.048969598,0.0017797438095777398,Uses total age-cell frequency
+udd3,48,14631,hours_3,0.0487321441,0.0017800088666258612,Uses total age-cell frequency
+udd3,49,14114,hours_3,0.0478248548,0.0017962227553961392,Uses total age-cell frequency
+udd3,50,13301,hours_3,0.0466882189,0.0018292749471482321,Uses total age-cell frequency
+udd3,51,12629,hours_3,0.0463219574,0.0018702939180309675,Uses total age-cell frequency
+udd3,52,11941,hours_3,0.0458923038,0.0019149096171796325,Uses total age-cell frequency
+udd3,53,11340,hours_3,0.0480599647,0.00200858397068358,Uses total age-cell frequency
+udd3,54,11158,hours_3,0.0515325327,0.002092949669702332,Uses total age-cell frequency
+udd3,55,10794,hours_3,0.0489160645,0.002076079455262018,Uses total age-cell frequency
+udd3,56,10445,hours_3,0.0484442317,0.0021007962682626927,Uses total age-cell frequency
+udd3,57,9859,hours_3,0.0480778984,0.002154552145412329,Uses total age-cell frequency
+udd3,58,9125,hours_3,0.0464657534,0.002203526119678717,Uses total age-cell frequency
+udd3,59,8551,hours_3,0.0473628815,0.0022970706599177585,Uses total age-cell frequency
+udd3,60,8036,hours_3,0.0523892484,0.0024855134048171056,Uses total age-cell frequency
+udd3,61,7489,hours_3,0.0602216584,0.002749015295108993,Uses total age-cell frequency
+udd3,62,7287,hours_3,0.0638122684,0.0028632494081504366,Uses total age-cell frequency
+udd3,63,7168,hours_3,0.0684988839,0.0029835576854947837,Uses total age-cell frequency
+udd3,64,7025,hours_3,0.0680427046,0.0030044544616621713,Uses total age-cell frequency
+udd3,65,6992,hours_3,0.0769450801,0.003187157231276343,Uses total age-cell frequency
+udd3,66,6812,hours_3,0.0767762772,0.003225742401799012,Uses total age-cell frequency
+udd3,67,6754,hours_3,0.0710689962,0.003126448588841356,Uses total age-cell frequency
+udd3,68,6615,hours_3,0.0666666667,0.003066958042233547,Uses total age-cell frequency
+udd3,69,6435,hours_3,0.0560994561,0.0028685879376560723,Uses total age-cell frequency
+udd3,70,6337,hours_3,0.0528641313,0.002810896394220175,Uses total age-cell frequency
+udd3,71,6224,hours_3,0.0383997429,0.0024357160153155055,Uses total age-cell frequency
+udd3,72,6085,hours_3,0.0277732128,0.002106524725120917,Uses total age-cell frequency
+udd3,73,5938,hours_3,0.0242505894,0.001996228268778354,Uses total age-cell frequency
+udd3,74,5880,hours_3,0.0180272109,0.0017351032908130548,Uses total age-cell frequency
+udd3,75,5681,hours_3,0.0124977997,0.0014739183350325517,Uses total age-cell frequency
+udd3,76,5187,hours_3,0.010989011,0.0014475105530142762,Uses total age-cell frequency
+udd3,77,4611,hours_3,0.0095423986,0.0014316905568473098,Uses total age-cell frequency
+udd3,78,4006,hours_3,0.0067398902,0.001292713949792839,Uses total age-cell frequency
+udd3,79,3348,hours_3,0.006869773,0.0014275179203992756,Uses total age-cell frequency
+udd3,80,2785,hours_3,0.0028725314,0.0010141335085667226,Uses total age-cell frequency
+udd3,81,2244,hours_3,0.0008912656,0.0006299390393044908,Uses total age-cell frequency
+udd3,82,1484,hours_3,0.0006738544,0.0006736273455746362,Uses total age-cell frequency
+udd3,83,933,hours_3,0.0,0.0,Uses total age-cell frequency
+udd3,84,449,hours_3,0.0,0.0,Uses total age-cell frequency
+udd1,30,2840,hours_4,0.4059859155,0.00921498610874567,Uses total age-cell frequency
+udd1,31,5097,hours_4,0.4190700412,0.006911111146729345,Uses total age-cell frequency
+udd1,32,7282,hours_4,0.4290030211,0.0057999165270096065,Uses total age-cell frequency
+udd1,33,9171,hours_4,0.4334314688,0.005174615648613852,Uses total age-cell frequency
+udd1,34,11180,hours_4,0.4432915921,0.004698267450558872,Uses total age-cell frequency
+udd1,35,13112,hours_4,0.442419158,0.0043374692990578384,Uses total age-cell frequency
+udd1,36,17702,hours_4,0.4876285166,0.003756867296173463,Uses total age-cell frequency
+udd1,37,22115,hours_4,0.5167533348,0.0033603352287813176,Uses total age-cell frequency
+udd1,38,26699,hours_4,0.5410314993,0.003049686645988458,Uses total age-cell frequency
+udd1,39,31731,hours_4,0.5606819829,0.0027861591994010637,Uses total age-cell frequency
+udd1,40,32214,hours_4,0.5623641895,0.002764031114803372,Uses total age-cell frequency
+udd1,41,32959,hours_4,0.5695257744,0.002727364950947533,Uses total age-cell frequency
+udd1,42,33929,hours_4,0.5774706004,0.0026816856978213095,Uses total age-cell frequency
+udd1,43,34810,hours_4,0.5814421143,0.00264410681206735,Uses total age-cell frequency
+udd1,44,35491,hours_4,0.5851060832,0.00261533136470357,Uses total age-cell frequency
+udd1,45,36530,hours_4,0.5940323022,0.0025693657707320863,Uses total age-cell frequency
+udd1,46,37648,hours_4,0.597641309,0.0025272956073500163,Uses total age-cell frequency
+udd1,47,38609,hours_4,0.6019062913,0.0024912242449413777,Uses total age-cell frequency
+udd1,48,39731,hours_4,0.6046663814,0.0024528728566577266,Uses total age-cell frequency
+udd1,49,40045,hours_4,0.5996503933,0.0024484690323141535,Uses total age-cell frequency
+udd1,50,40332,hours_4,0.596523852,0.0024428565249446994,Uses total age-cell frequency
+udd1,51,40778,hours_4,0.5959831282,0.0024299860072059254,Uses total age-cell frequency
+udd1,52,41035,hours_4,0.5937126843,0.00242453008113409,Uses total age-cell frequency
+udd1,53,41296,hours_4,0.5899118559,0.0024203500164373796,Uses total age-cell frequency
+udd1,54,42101,hours_4,0.5911261015,0.0023960096120189487,Uses total age-cell frequency
+udd1,55,42583,hours_4,0.5930300824,0.002380682003539841,Uses total age-cell frequency
+udd1,56,42538,hours_4,0.5879213879,0.0023864983224430717,Uses total age-cell frequency
+udd1,57,41686,hours_4,0.5844887972,0.0024137059022581874,Uses total age-cell frequency
+udd1,58,40096,hours_4,0.5800079808,0.0024648300440511376,Uses total age-cell frequency
+udd1,59,38600,hours_4,0.5647927461,0.002523474761481624,Uses total age-cell frequency
+udd1,60,36987,hours_4,0.5478681699,0.002587891250822338,Uses total age-cell frequency
+udd1,61,35482,hours_4,0.5160926667,0.002653022297651055,Uses total age-cell frequency
+udd1,62,34081,hours_4,0.4794166838,0.002706110521891471,Uses total age-cell frequency
+udd1,63,32751,hours_4,0.4251167903,0.002731691547452209,Uses total age-cell frequency
+udd1,64,31813,hours_4,0.3605758652,0.0026920959002591,Uses total age-cell frequency
+udd1,65,31074,hours_4,0.2824226041,0.0025537919916284466,Uses total age-cell frequency
+udd1,66,30479,hours_4,0.2089635487,0.0023288051817227096,Uses total age-cell frequency
+udd1,67,30295,hours_4,0.1331572867,0.0019519430457098721,Uses total age-cell frequency
+udd1,68,29842,hours_4,0.0862877823,0.0016254192792777352,Uses total age-cell frequency
+udd1,69,29091,hours_4,0.0607748101,0.0014007716578385027,Uses total age-cell frequency
+udd1,70,28733,hours_4,0.0449309157,0.0012220797334726802,Uses total age-cell frequency
+udd1,71,28201,hours_4,0.0328002553,0.0010606313122945468,Uses total age-cell frequency
+udd1,72,27755,hours_4,0.0247162673,0.0009319364882404979,Uses total age-cell frequency
+udd1,73,27615,hours_4,0.020822017,0.0008592503039551779,Uses total age-cell frequency
+udd1,74,27541,hours_4,0.017283323,0.000785304224416068,Uses total age-cell frequency
+udd1,75,27329,hours_4,0.0127337261,0.0006782394270407979,Uses total age-cell frequency
+udd1,76,25186,hours_4,0.0106011276,0.0006453304190122713,Uses total age-cell frequency
+udd1,77,22442,hours_4,0.009535692,0.0006487311375715493,Uses total age-cell frequency
+udd1,78,19392,hours_4,0.0084570957,0.0006575898130504886,Uses total age-cell frequency
+udd1,79,16359,hours_4,0.007090898,0.0006560349681438074,Uses total age-cell frequency
+udd1,80,13610,hours_4,0.006098457,0.0006673483680921346,Uses total age-cell frequency
+udd1,81,11239,hours_4,0.0057834327,0.000715269168667739,Uses total age-cell frequency
+udd1,82,7491,hours_4,0.0042717928,0.0007535387600949321,Uses total age-cell frequency
+udd1,83,4499,hours_4,0.0040008891,0.0009411302557820629,Uses total age-cell frequency
+udd1,84,1982,hours_4,0.0065590313,0.0018131722328885006,Uses total age-cell frequency
+udd2,30,1113,hours_4,0.4312668464,0.014844983772746827,Uses total age-cell frequency
+udd2,31,2004,hours_4,0.495508982,0.011168725733477502,Uses total age-cell frequency
+udd2,32,2718,hours_4,0.5334805004,0.009569063780659231,Uses total age-cell frequency
+udd2,33,3314,hours_4,0.5666867833,0.008607881066521005,Uses total age-cell frequency
+udd2,34,3924,hours_4,0.5899592253,0.007851633542277562,Uses total age-cell frequency
+udd2,35,4527,hours_4,0.6026065827,0.007273141265751462,Uses total age-cell frequency
+udd2,36,7085,hours_4,0.67099506,0.005582014285181584,Uses total age-cell frequency
+udd2,37,9565,hours_4,0.704966022,0.004663131073520647,Uses total age-cell frequency
+udd2,38,12100,hours_4,0.732892562,0.004022262988770469,Uses total age-cell frequency
+udd2,39,14860,hours_4,0.7491251682,0.003556283186925236,Uses total age-cell frequency
+udd2,40,14575,hours_4,0.7536878216,0.0035689002507472297,Uses total age-cell frequency
+udd2,41,14728,hours_4,0.7556355242,0.0035408157735381867,Uses total age-cell frequency
+udd2,42,15004,hours_4,0.7584644095,0.003494255378371947,Uses total age-cell frequency
+udd2,43,15152,hours_4,0.7629355861,0.003454952958393245,Uses total age-cell frequency
+udd2,44,15237,hours_4,0.765898799,0.0034303448485586193,Uses total age-cell frequency
+udd2,45,15257,hours_4,0.7696794914,0.0034086835885223615,Uses total age-cell frequency
+udd2,46,15375,hours_4,0.772097561,0.0033830079202505766,Uses total age-cell frequency
+udd2,47,15578,hours_4,0.7735909616,0.003353101684383443,Uses total age-cell frequency
+udd2,48,15708,hours_4,0.7775019099,0.0033185886969864923,Uses total age-cell frequency
+udd2,49,15636,hours_4,0.7716167818,0.0033571449698697278,Uses total age-cell frequency
+udd2,50,15191,hours_4,0.7615035218,0.0034576717479457885,Uses total age-cell frequency
+udd2,51,14835,hours_4,0.7584091675,0.0035143761006196346,Uses total age-cell frequency
+udd2,52,14402,hours_4,0.7603110679,0.00355719966903773,Uses total age-cell frequency
+udd2,53,14078,hours_4,0.748259696,0.00365790205330795,Uses total age-cell frequency
+udd2,54,13964,hours_4,0.7482812948,0.0036726984274609914,Uses total age-cell frequency
+udd2,55,13816,hours_4,0.7510856977,0.0036785656357926264,Uses total age-cell frequency
+udd2,56,13539,hours_4,0.7414875545,0.003762698037679503,Uses total age-cell frequency
+udd2,57,13004,hours_4,0.7320824362,0.003883668084687909,Uses total age-cell frequency
+udd2,58,12185,hours_4,0.7332786213,0.004006366341635154,Uses total age-cell frequency
+udd2,59,11532,hours_4,0.7168747832,0.00419525738968732,Uses total age-cell frequency
+udd2,60,11168,hours_4,0.699767192,0.00433728699427065,Uses total age-cell frequency
+udd2,61,10557,hours_4,0.6651510846,0.004593189245487863,Uses total age-cell frequency
+udd2,62,10144,hours_4,0.628351735,0.004798028726995279,Uses total age-cell frequency
+udd2,63,9703,hours_4,0.5699268268,0.005026060487589465,Uses total age-cell frequency
+udd2,64,9220,hours_4,0.4945770065,0.005206897135634009,Uses total age-cell frequency
+udd2,65,8973,hours_4,0.4038783016,0.005179930011535531,Uses total age-cell frequency
+udd2,66,8725,hours_4,0.3075071633,0.004940291139283296,Uses total age-cell frequency
+udd2,67,8583,hours_4,0.1978329256,0.0042999375335649095,Uses total age-cell frequency
+udd2,68,8433,hours_4,0.1298470295,0.003660351251322441,Uses total age-cell frequency
+udd2,69,8358,hours_4,0.0934434075,0.003183615498885854,Uses total age-cell frequency
+udd2,70,8294,hours_4,0.0690860863,0.002784633481138309,Uses total age-cell frequency
+udd2,71,8097,hours_4,0.0516240583,0.0024589758630881005,Uses total age-cell frequency
+udd2,72,8065,hours_4,0.0407935524,0.002202670939174754,Uses total age-cell frequency
+udd2,73,8060,hours_4,0.032133995,0.00196436622367423,Uses total age-cell frequency
+udd2,74,7998,hours_4,0.0262565641,0.0017879300297147015,Uses total age-cell frequency
+udd2,75,7923,hours_4,0.0219613783,0.001646504685863673,Uses total age-cell frequency
+udd2,76,7366,hours_4,0.0175128971,0.0015283631914432406,Uses total age-cell frequency
+udd2,77,6573,hours_4,0.0146052031,0.0014797117300193153,Uses total age-cell frequency
+udd2,78,5726,hours_4,0.011002445,0.0013785310108303014,Uses total age-cell frequency
+udd2,79,4695,hours_4,0.0091586794,0.0013902749087751523,Uses total age-cell frequency
+udd2,80,3872,hours_4,0.0090392562,0.0015209918916756489,Uses total age-cell frequency
+udd2,81,3178,hours_4,0.0081812461,0.0015978975834839114,Uses total age-cell frequency
+udd2,82,2067,hours_4,0.0062893082,0.001738846244331272,Uses total age-cell frequency
+udd2,83,1296,hours_4,0.0061728395,0.0021756820188862545,Uses total age-cell frequency
+udd2,84,578,hours_4,0.0034602076,0.0024424994867647057,Uses total age-cell frequency
+udd3,30,1301,hours_4,0.5426594927,0.013811628506459504,Uses total age-cell frequency
+udd3,31,2482,hours_4,0.5455278002,0.00999450331222506,Uses total age-cell frequency
+udd3,32,3552,hours_4,0.5627815315,0.008323053557700837,Uses total age-cell frequency
+udd3,33,4342,hours_4,0.5877475818,0.0074701981504672115,Uses total age-cell frequency
+udd3,34,4950,hours_4,0.598989899,0.006966021427216424,Uses total age-cell frequency
+udd3,35,5483,hours_4,0.5998540945,0.0066164171629067205,Uses total age-cell frequency
+udd3,36,8619,hours_4,0.6840700777,0.005007457097199096,Uses total age-cell frequency
+udd3,37,11739,hours_4,0.7239117472,0.004126209027988813,Uses total age-cell frequency
+udd3,38,14733,hours_4,0.7570080771,0.003533463269370433,Uses total age-cell frequency
+udd3,39,17853,hours_4,0.7704587464,0.0031473820738815096,Uses total age-cell frequency
+udd3,40,17484,hours_4,0.7811141615,0.003127128222496717,Uses total age-cell frequency
+udd3,41,16899,hours_4,0.7889815965,0.003138796069322981,Uses total age-cell frequency
+udd3,42,16541,hours_4,0.7985611511,0.003118493362128071,Uses total age-cell frequency
+udd3,43,15978,hours_4,0.8054825385,0.0031314548423920984,Uses total age-cell frequency
+udd3,44,15429,hours_4,0.8062738998,0.0031817531235710976,Uses total age-cell frequency
+udd3,45,15154,hours_4,0.8104790814,0.0031837271424263016,Uses total age-cell frequency
+udd3,46,14897,hours_4,0.8132509901,0.003192949468344612,Uses total age-cell frequency
+udd3,47,14703,hours_4,0.815683874,0.0031977140599016808,Uses total age-cell frequency
+udd3,48,14631,hours_4,0.8175791128,0.0031927518888821317,Uses total age-cell frequency
+udd3,49,14114,hours_4,0.8179821454,0.0032479089883012905,Uses total age-cell frequency
+udd3,50,13301,hours_4,0.8151266822,0.0033659489557069412,Uses total age-cell frequency
+udd3,51,12629,hours_4,0.8147121704,0.0034573318531503352,Uses total age-cell frequency
+udd3,52,11941,hours_4,0.8082237669,0.003602822376664862,Uses total age-cell frequency
+udd3,53,11340,hours_4,0.8043209877,0.00372546336553522,Uses total age-cell frequency
+udd3,54,11158,hours_4,0.7953934397,0.00381906984456979,Uses total age-cell frequency
+udd3,55,10794,hours_4,0.7904391329,0.0039174016602904925,Uses total age-cell frequency
+udd3,56,10445,hours_4,0.7874581139,0.00400296482694385,Uses total age-cell frequency
+udd3,57,9859,hours_4,0.782838016,0.004152517016984377,Uses total age-cell frequency
+udd3,58,9125,hours_4,0.7736986301,0.004380392925158854,Uses total age-cell frequency
+udd3,59,8551,hours_4,0.7611975208,0.004610623345614194,Uses total age-cell frequency
+udd3,60,8036,hours_4,0.7356893977,0.004919087828417968,Uses total age-cell frequency
+udd3,61,7489,hours_4,0.7210575511,0.005182393118814101,Uses total age-cell frequency
+udd3,62,7287,hours_4,0.6893097297,0.005421215183795519,Uses total age-cell frequency
+udd3,63,7168,hours_4,0.6519252232,0.005626472110885198,Uses total age-cell frequency
+udd3,64,7025,hours_4,0.6025622776,0.0058386487396592576,Uses total age-cell frequency
+udd3,65,6992,hours_4,0.5208810069,0.005974344266063464,Uses total age-cell frequency
+udd3,66,6812,hours_4,0.4334997064,0.006004227701080551,Uses total age-cell frequency
+udd3,67,6754,hours_4,0.3156647912,0.005655447645044254,Uses total age-cell frequency
+udd3,68,6615,hours_4,0.2303854875,0.005177251459572381,Uses total age-cell frequency
+udd3,69,6435,hours_4,0.172960373,0.004714788227459463,Uses total age-cell frequency
+udd3,70,6337,hours_4,0.1224554205,0.004117956431440624,Uses total age-cell frequency
+udd3,71,6224,hours_4,0.0877249357,0.0035858295300320244,Uses total age-cell frequency
+udd3,72,6085,hours_4,0.066064092,0.00318427803143274,Uses total age-cell frequency
+udd3,73,5938,hours_4,0.0453014483,0.0026987899151378163,Uses total age-cell frequency
+udd3,74,5880,hours_4,0.0343537415,0.002375239405941202,Uses total age-cell frequency
+udd3,75,5681,hours_4,0.0281640556,0.0021949856271088067,Uses total age-cell frequency
+udd3,76,5187,hours_4,0.0206284943,0.0019735556308875597,Uses total age-cell frequency
+udd3,77,4611,hours_4,0.0156148341,0.0018258019070479627,Uses total age-cell frequency
+udd3,78,4006,hours_4,0.0144782826,0.001887279192148041,Uses total age-cell frequency
+udd3,79,3348,hours_4,0.0113500597,0.0018307440043763266,Uses total age-cell frequency
+udd3,80,2785,hours_4,0.0114901257,0.002019483439239799,Uses total age-cell frequency
+udd3,81,2244,hours_4,0.008912656,0.0019840294352459365,Uses total age-cell frequency
+udd3,82,1484,hours_4,0.0107816712,0.002680847862188164,Uses total age-cell frequency
+udd3,83,933,hours_4,0.0053590568,0.0023902125612836824,Uses total age-cell frequency
+udd3,84,449,hours_4,0.0022271715,0.0022246899671937914,Uses total age-cell frequency
+udd1,30,2840,work_work,,,Approximate: uses total age-cell frequency
+udd1,31,5097,work_work,0.6723826715,0.0065740707206424585,Approximate: uses total age-cell frequency
+udd1,32,7282,work_work,0.6603319702,0.0055498744802939615,Approximate: uses total age-cell frequency
+udd1,33,9171,work_work,0.6692446931,0.0049128955598924055,Approximate: uses total age-cell frequency
+udd1,34,11180,work_work,0.6661116803,0.00446018873057357,Approximate: uses total age-cell frequency
+udd1,35,13112,work_work,0.6699896158,0.004106420018226304,Approximate: uses total age-cell frequency
+udd1,36,17702,work_work,0.6784866234,0.0035104193512207438,Approximate: uses total age-cell frequency
+udd1,37,22115,work_work,0.7102259215,0.0030505950015394375,Approximate: uses total age-cell frequency
+udd1,38,26699,work_work,0.7299515991,0.0027171920762399143,Approximate: uses total age-cell frequency
+udd1,39,31731,work_work,0.7458161438,0.0024442633303284507,Approximate: uses total age-cell frequency
+udd1,40,32214,work_work,0.7468616044,0.002422572321862663,Approximate: uses total age-cell frequency
+udd1,41,32959,work_work,0.746649244,0.0023956998403133114,Approximate: uses total age-cell frequency
+udd1,42,33929,work_work,0.7506724827,0.002348685272502447,Approximate: uses total age-cell frequency
+udd1,43,34810,work_work,0.7516776153,0.00231564367494827,Approximate: uses total age-cell frequency
+udd1,44,35491,work_work,0.7511925337,0.0022948178405947112,Approximate: uses total age-cell frequency
+udd1,45,36530,work_work,0.7543883338,0.0022521491127892946,Approximate: uses total age-cell frequency
+udd1,46,37648,work_work,0.7576997349,0.0022082821266600438,Approximate: uses total age-cell frequency
+udd1,47,38609,work_work,0.7577128754,0.0021805860269879717,Approximate: uses total age-cell frequency
+udd1,48,39731,work_work,0.7561473508,0.0021542802923518794,Approximate: uses total age-cell frequency
+udd1,49,40045,work_work,0.7491597922,0.00216626537038045,Approximate: uses total age-cell frequency
+udd1,50,40332,work_work,0.7449686671,0.0021704055664326836,Approximate: uses total age-cell frequency
+udd1,51,40778,work_work,0.73708627,0.0021799816266490682,Approximate: uses total age-cell frequency
+udd1,52,41035,work_work,0.7332190971,0.0021833181952265746,Approximate: uses total age-cell frequency
+udd1,53,41296,work_work,0.7302130898,0.002184143912406664,Approximate: uses total age-cell frequency
+udd1,54,42101,work_work,0.7277731347,0.002169288406902525,Approximate: uses total age-cell frequency
+udd1,55,42583,work_work,0.7300996078,0.002151169779622585,Approximate: uses total age-cell frequency
+udd1,56,42538,work_work,0.7255845362,0.002163514280890745,Approximate: uses total age-cell frequency
+udd1,57,41686,work_work,0.7195160232,0.0022002860789693173,Approximate: uses total age-cell frequency
+udd1,58,40096,work_work,0.7155067517,0.0022531615190435656,Approximate: uses total age-cell frequency
+udd1,59,38600,work_work,0.7042536736,0.002322900393663822,Approximate: uses total age-cell frequency
+udd1,60,36987,work_work,0.692141219,0.002400206324669604,Approximate: uses total age-cell frequency
+udd1,61,35482,work_work,0.6680743243,0.002499935298813833,Approximate: uses total age-cell frequency
+udd1,62,34081,work_work,0.6330191334,0.0026108021689551656,Approximate: uses total age-cell frequency
+udd1,63,32751,work_work,0.5905721693,0.002717145444577835,Approximate: uses total age-cell frequency
+udd1,64,31813,work_work,0.5234845597,0.0028001939585507196,Approximate: uses total age-cell frequency
+udd1,65,31074,work_work,0.451007183,0.002822776412639654,Approximate: uses total age-cell frequency
+udd1,66,30479,work_work,0.3638179712,0.002755703039724757,Approximate: uses total age-cell frequency
+udd1,67,30295,work_work,0.2869565217,0.0025988461920787285,Approximate: uses total age-cell frequency
+udd1,68,29842,work_work,0.2166905885,0.002384914059505271,Approximate: uses total age-cell frequency
+udd1,69,29091,work_work,0.1757674887,0.0022315921199712293,Approximate: uses total age-cell frequency
+udd1,70,28733,work_work,0.1487553905,0.0020992929975565833,Approximate: uses total age-cell frequency
+udd1,71,28201,work_work,0.1242171641,0.0019640691104851186,Approximate: uses total age-cell frequency
+udd1,72,27755,work_work,0.1086475482,0.001867944984217995,Approximate: uses total age-cell frequency
+udd1,73,27615,work_work,0.0970778497,0.0017816102549106615,Approximate: uses total age-cell frequency
+udd1,74,27541,work_work,0.0861905835,0.0016910944814589534,Approximate: uses total age-cell frequency
+udd1,75,27329,work_work,0.078566939,0.0016275709947572911,Approximate: uses total age-cell frequency
+udd1,76,25186,work_work,0.0695135434,0.0016025446626705602,Approximate: uses total age-cell frequency
+udd1,77,22442,work_work,0.0632012352,0.0016242585397078944,Approximate: uses total age-cell frequency
+udd1,78,19392,work_work,0.056398872,0.0016566018173123271,Approximate: uses total age-cell frequency
+udd1,79,16359,work_work,0.0523964833,0.0017421519259807428,Approximate: uses total age-cell frequency
+udd1,80,13610,work_work,0.0474093264,0.0018216124775568378,Approximate: uses total age-cell frequency
+udd1,81,11239,work_work,0.0412920761,0.0018767770426771275,Approximate: uses total age-cell frequency
+udd1,82,7491,work_work,0.0362027353,0.002158209692576769,Approximate: uses total age-cell frequency
+udd1,83,4499,work_work,0.0355386679,0.0027601646284504144,Approximate: uses total age-cell frequency
+udd1,84,1982,work_work,0.0344478217,0.004096537466321932,Approximate: uses total age-cell frequency
+udd2,30,1113,work_work,,,Approximate: uses total age-cell frequency
+udd2,31,2004,work_work,0.7853535354,0.009171610710845608,Approximate: uses total age-cell frequency
+udd2,32,2718,work_work,0.7988126649,0.007689499335788041,Approximate: uses total age-cell frequency
+udd2,33,3314,work_work,0.8035882908,0.00690119398958873,Approximate: uses total age-cell frequency
+udd2,34,3924,work_work,0.8143555054,0.006207025881347711,Approximate: uses total age-cell frequency
+udd2,35,4527,work_work,0.822180333,0.00568287614647941,Approximate: uses total age-cell frequency
+udd2,36,7085,work_work,0.8490860455,0.004252757548462966,Approximate: uses total age-cell frequency
+udd2,37,9565,work_work,0.8686110309,0.0034542171457205436,Approximate: uses total age-cell frequency
+udd2,38,12100,work_work,0.8816145439,0.0029369453390039628,Approximate: uses total age-cell frequency
+udd2,39,14860,work_work,0.8948215951,0.0025166459023387698,Approximate: uses total age-cell frequency
+udd2,40,14575,work_work,0.8976227659,0.0025109863032885087,Approximate: uses total age-cell frequency
+udd2,41,14728,work_work,0.8978013383,0.0024959785043348515,Approximate: uses total age-cell frequency
+udd2,42,15004,work_work,0.8968861664,0.0024826963271961564,Approximate: uses total age-cell frequency
+udd2,43,15152,work_work,0.8962600547,0.002477165637186397,Approximate: uses total age-cell frequency
+udd2,44,15237,work_work,0.8929812945,0.002504386152636276,Approximate: uses total age-cell frequency
+udd2,45,15257,work_work,0.8953038901,0.002478654161351145,Approximate: uses total age-cell frequency
+udd2,46,15375,work_work,0.8925199113,0.0024978445242227554,Approximate: uses total age-cell frequency
+udd2,47,15578,work_work,0.8930225132,0.0024764043003823303,Approximate: uses total age-cell frequency
+udd2,48,15708,work_work,0.8916852501,0.0024796429245433444,Approximate: uses total age-cell frequency
+udd2,49,15636,work_work,0.884820081,0.0025530130732247286,Approximate: uses total age-cell frequency
+udd2,50,15191,work_work,0.8800226831,0.0026363515643335715,Approximate: uses total age-cell frequency
+udd2,51,14835,work_work,0.8760535449,0.0027054443526229564,Approximate: uses total age-cell frequency
+udd2,52,14402,work_work,0.8707327404,0.0027956017591268217,Approximate: uses total age-cell frequency
+udd2,53,14078,work_work,0.8637397236,0.002891382838801179,Approximate: uses total age-cell frequency
+udd2,54,13964,work_work,0.8615302681,0.0029228583965868566,Approximate: uses total age-cell frequency
+udd2,55,13816,work_work,0.8606419666,0.002946361981068541,Approximate: uses total age-cell frequency
+udd2,56,13539,work_work,0.8555966447,0.0030208550327261207,Approximate: uses total age-cell frequency
+udd2,57,13004,work_work,0.8476987448,0.003150895724772084,Approximate: uses total age-cell frequency
+udd2,58,12185,work_work,0.8392575039,0.003327363159130722,Approximate: uses total age-cell frequency
+udd2,59,11532,work_work,0.8322083949,0.003479756410868044,Approximate: uses total age-cell frequency
+udd2,60,11168,work_work,0.8187140963,0.003645528092525815,Approximate: uses total age-cell frequency
+udd2,61,10557,work_work,0.8029364533,0.003871448391947444,Approximate: uses total age-cell frequency
+udd2,62,10144,work_work,0.7736187515,0.004155077217396772,Approximate: uses total age-cell frequency
+udd2,63,9703,work_work,0.7342806841,0.004484247751783463,Approximate: uses total age-cell frequency
+udd2,64,9220,work_work,0.6727345203,0.004886596674617493,Approximate: uses total age-cell frequency
+udd2,65,8973,work_work,0.6052128821,0.0051602023757827496,Approximate: uses total age-cell frequency
+udd2,66,8725,work_work,0.5141449683,0.005350734838233708,Approximate: uses total age-cell frequency
+udd2,67,8583,work_work,0.4164367649,0.005321069572752129,Approximate: uses total age-cell frequency
+udd2,68,8433,work_work,0.3208160852,0.005083124106207854,Approximate: uses total age-cell frequency
+udd2,69,8358,work_work,0.2636808542,0.004819712818179091,Approximate: uses total age-cell frequency
+udd2,70,8294,work_work,0.2236488504,0.004575414242984669,Approximate: uses total age-cell frequency
+udd2,71,8097,work_work,0.1982627248,0.004430722019132845,Approximate: uses total age-cell frequency
+udd2,72,8065,work_work,0.1754413131,0.004235205953409191,Approximate: uses total age-cell frequency
+udd2,73,8060,work_work,0.1558341071,0.004039965330483284,Approximate: uses total age-cell frequency
+udd2,74,7998,work_work,0.1356378856,0.0038286676367521567,Approximate: uses total age-cell frequency
+udd2,75,7923,work_work,0.119943995,0.0036500564601789384,Approximate: uses total age-cell frequency
+udd2,76,7366,work_work,0.1070853462,0.003602916029249614,Approximate: uses total age-cell frequency
+udd2,77,6573,work_work,0.0958683599,0.003631379741926637,Approximate: uses total age-cell frequency
+udd2,78,5726,work_work,0.089370485,0.003770007782698074,Approximate: uses total age-cell frequency
+udd2,79,4695,work_work,0.0740740741,0.00382211226989336,Approximate: uses total age-cell frequency
+udd2,80,3872,work_work,0.0692189893,0.004079140927660947,Approximate: uses total age-cell frequency
+udd2,81,3178,work_work,0.0654381346,0.00438674648529701,Approximate: uses total age-cell frequency
+udd2,82,2067,work_work,0.0507069722,0.004825738080985543,Approximate: uses total age-cell frequency
+udd2,83,1296,work_work,0.046692607,0.005860545486895293,Approximate: uses total age-cell frequency
+udd2,84,578,work_work,0.0348432056,0.0076277081665855175,Approximate: uses total age-cell frequency
+udd3,30,1301,work_work,,,Approximate: uses total age-cell frequency
+udd3,31,2482,work_work,0.7730426165,0.008407618316705468,Approximate: uses total age-cell frequency
+udd3,32,3552,work_work,0.7603015075,0.007162903471829141,Approximate: uses total age-cell frequency
+udd3,33,4342,work_work,0.7612809316,0.006469506027584888,Approximate: uses total age-cell frequency
+udd3,34,4950,work_work,0.7610698366,0.006061012023667356,Approximate: uses total age-cell frequency
+udd3,35,5483,work_work,0.7730769231,0.005656418885391194,Approximate: uses total age-cell frequency
+udd3,36,8619,work_work,0.8029966704,0.004284155393751889,Approximate: uses total age-cell frequency
+udd3,37,11739,work_work,0.8488330341,0.0033061612637285843,Approximate: uses total age-cell frequency
+udd3,38,14733,work_work,0.8761093362,0.0027142687694927843,Approximate: uses total age-cell frequency
+udd3,39,17853,work_work,0.8878300155,0.0023618245858433146,Approximate: uses total age-cell frequency
+udd3,40,17484,work_work,0.8920380788,0.0023469649298117927,Approximate: uses total age-cell frequency
+udd3,41,16899,work_work,0.8934797122,0.0023731654141472356,Approximate: uses total age-cell frequency
+udd3,42,16541,work_work,0.8978519196,0.00235470541077329,Approximate: uses total age-cell frequency
+udd3,43,15978,work_work,0.904654245,0.0023234363807868503,Approximate: uses total age-cell frequency
+udd3,44,15429,work_work,0.9079182216,0.002327776748421441,Approximate: uses total age-cell frequency
+udd3,45,15154,work_work,0.9081189442,0.002346500844354471,Approximate: uses total age-cell frequency
+udd3,46,14897,work_work,0.9063482621,0.0023870200382991287,Approximate: uses total age-cell frequency
+udd3,47,14703,work_work,0.9085865483,0.0023767594355392956,Approximate: uses total age-cell frequency
+udd3,48,14631,work_work,0.9127113552,0.0023335042550779533,Approximate: uses total age-cell frequency
+udd3,49,14114,work_work,0.9131047854,0.0023710088931280567,Approximate: uses total age-cell frequency
+udd3,50,13301,work_work,0.9107748739,0.002471763751217818,Approximate: uses total age-cell frequency
+udd3,51,12629,work_work,0.9078985718,0.0025731634103065915,Approximate: uses total age-cell frequency
+udd3,52,11941,work_work,0.9048358704,0.0026853518359169666,Approximate: uses total age-cell frequency
+udd3,53,11340,work_work,0.8991285403,0.00282805933543855,Approximate: uses total age-cell frequency
+udd3,54,11158,work_work,0.8968262745,0.0028796886822769095,Approximate: uses total age-cell frequency
+udd3,55,10794,work_work,0.8955376405,0.002943951364041568,Approximate: uses total age-cell frequency
+udd3,56,10445,work_work,0.8882878645,0.003082285187987803,Approximate: uses total age-cell frequency
+udd3,57,9859,work_work,0.8874319644,0.0031831612853342613,Approximate: uses total age-cell frequency
+udd3,58,9125,work_work,0.8816364359,0.0033817176602341007,Approximate: uses total age-cell frequency
+udd3,59,8551,work_work,0.8717692418,0.0036156669780755277,Approximate: uses total age-cell frequency
+udd3,60,8036,work_work,0.8562031513,0.003914201069240906,Approximate: uses total age-cell frequency
+udd3,61,7489,work_work,0.8392711892,0.004244104881951857,Approximate: uses total age-cell frequency
+udd3,62,7287,work_work,0.8270306936,0.004430685777301796,Approximate: uses total age-cell frequency
+udd3,63,7168,work_work,0.8036842105,0.004691603862675088,Approximate: uses total age-cell frequency
+udd3,64,7025,work_work,0.7726869117,0.005000239826099111,Approximate: uses total age-cell frequency
+udd3,65,6992,work_work,0.7320179372,0.005296793166762974,Approximate: uses total age-cell frequency
+udd3,66,6812,work_work,0.6587825449,0.0057444617490348395,Approximate: uses total age-cell frequency
+udd3,67,6754,work_work,0.566827997,0.00602941681779537,Approximate: uses total age-cell frequency
+udd3,68,6615,work_work,0.4696509863,0.0061362575273977305,Approximate: uses total age-cell frequency
+udd3,69,6435,work_work,0.4082106894,0.006127050629052092,Approximate: uses total age-cell frequency
+udd3,70,6337,work_work,0.3504973669,0.005993644557549428,Approximate: uses total age-cell frequency
+udd3,71,6224,work_work,0.300120048,0.005809309145568981,Approximate: uses total age-cell frequency
+udd3,72,6085,work_work,0.2562947799,0.0055968027863316444,Approximate: uses total age-cell frequency
+udd3,73,5938,work_work,0.2300272594,0.0054614408072376636,Approximate: uses total age-cell frequency
+udd3,74,5880,work_work,0.1960867716,0.0051777380216656,Approximate: uses total age-cell frequency
+udd3,75,5681,work_work,0.1812662619,0.00511113601394756,Approximate: uses total age-cell frequency
+udd3,76,5187,work_work,0.1597821153,0.005087470687577965,Approximate: uses total age-cell frequency
+udd3,77,4611,work_work,0.1416386663,0.005134857859493881,Approximate: uses total age-cell frequency
+udd3,78,4006,work_work,0.1275769346,0.005271014105934397,Approximate: uses total age-cell frequency
+udd3,79,3348,work_work,0.1158768592,0.005531743215782836,Approximate: uses total age-cell frequency
+udd3,80,2785,work_work,0.0987341772,0.00565259157775734,Approximate: uses total age-cell frequency
+udd3,81,2244,work_work,0.0739549839,0.005524441085946999,Approximate: uses total age-cell frequency
+udd3,82,1484,work_work,0.0661213361,0.006450584764876883,Approximate: uses total age-cell frequency
+udd3,83,933,work_work,0.0532030402,0.007347774685801741,Approximate: uses total age-cell frequency
+udd3,84,449,work_work,0.0426966292,0.009541099358030852,Approximate: uses total age-cell frequency
+udd1,30,2840,nowork_nowork,,,Approximate: uses total age-cell frequency
+udd1,31,5097,nowork_nowork,0.2378158845,0.0059633878968959365,Approximate: uses total age-cell frequency
+udd1,32,7282,nowork_nowork,0.2383930719,0.004993291505791284,Approximate: uses total age-cell frequency
+udd1,33,9171,nowork_nowork,0.2363008063,0.004435937525928501,Approximate: uses total age-cell frequency
+udd1,34,11180,nowork_nowork,0.2392418033,0.004034790150820682,Approximate: uses total age-cell frequency
+udd1,35,13112,nowork_nowork,0.2414330218,0.0037373247017370875,Approximate: uses total age-cell frequency
+udd1,36,17702,nowork_nowork,0.2296184898,0.00316115059146382,Approximate: uses total age-cell frequency
+udd1,37,22115,nowork_nowork,0.2094530321,0.0027362998878739083,Approximate: uses total age-cell frequency
+udd1,38,26699,nowork_nowork,0.1965455063,0.0024320063456893955,Approximate: uses total age-cell frequency
+udd1,39,31731,nowork_nowork,0.1839339924,0.002174962449571994,Approximate: uses total age-cell frequency
+udd1,40,32214,nowork_nowork,0.1850505205,0.002163655792257215,Approximate: uses total age-cell frequency
+udd1,41,32959,nowork_nowork,0.1879783461,0.0021520418080539284,Approximate: uses total age-cell frequency
+udd1,42,33929,nowork_nowork,0.188258815,0.002122271397809841,Approximate: uses total age-cell frequency
+udd1,43,34810,nowork_nowork,0.1874690966,0.0020918607704401918,Approximate: uses total age-cell frequency
+udd1,44,35491,nowork_nowork,0.1887659869,0.002077188114816216,Approximate: uses total age-cell frequency
+udd1,45,36530,nowork_nowork,0.1890359168,0.0020485574031201934,Approximate: uses total age-cell frequency
+udd1,46,37648,nowork_nowork,0.1884593984,0.0020155476580170323,Approximate: uses total age-cell frequency
+udd1,47,38609,nowork_nowork,0.1894440401,0.001994287185095793,Approximate: uses total age-cell frequency
+udd1,48,39731,nowork_nowork,0.1923850175,0.001977529902021881,Approximate: uses total age-cell frequency
+udd1,49,40045,nowork_nowork,0.1996333639,0.0019975005227955175,Approximate: uses total age-cell frequency
+udd1,50,40332,nowork_nowork,0.2031513618,0.002003424161403428,Approximate: uses total age-cell frequency
+udd1,51,40778,nowork_nowork,0.2109614298,0.002020401516996144,Approximate: uses total age-cell frequency
+udd1,52,41035,nowork_nowork,0.2166450012,0.002033651011381355,Approximate: uses total age-cell frequency
+udd1,53,41296,nowork_nowork,0.2208757757,0.0020413778776379094,Approximate: uses total age-cell frequency
+udd1,54,42101,nowork_nowork,0.2236663881,0.00203085235708332,Approximate: uses total age-cell frequency
+udd1,55,42583,nowork_nowork,0.2249216964,0.0020233468516735018,Approximate: uses total age-cell frequency
+udd1,56,42538,nowork_nowork,0.2267522017,0.0020302362081057045,Approximate: uses total age-cell frequency
+udd1,57,41686,nowork_nowork,0.233712867,0.00207272633816718,Approximate: uses total age-cell frequency
+udd1,58,40096,nowork_nowork,0.2394717317,0.002131249445124024,Approximate: uses total age-cell frequency
+udd1,59,38600,nowork_nowork,0.2504253674,0.0022052252053439635,Approximate: uses total age-cell frequency
+udd1,60,36987,nowork_nowork,0.2606027326,0.0022824635438857183,Approximate: uses total age-cell frequency
+udd1,61,35482,nowork_nowork,0.2778040541,0.0023778955105194003,Approximate: uses total age-cell frequency
+udd1,62,34081,nowork_nowork,0.3056767023,0.0024954902311029063,Approximate: uses total age-cell frequency
+udd1,63,32751,nowork_nowork,0.3404534998,0.0026184201177384928,Approximate: uses total age-cell frequency
+udd1,64,31813,nowork_nowork,0.3903164316,0.0027350064183156012,Approximate: uses total age-cell frequency
+udd1,65,31074,nowork_nowork,0.467988757,0.0028306067261004274,Approximate: uses total age-cell frequency
+udd1,66,30479,nowork_nowork,0.539813816,0.002854883751424113,Approximate: uses total age-cell frequency
+udd1,67,30295,nowork_nowork,0.6314256825,0.002771648662609021,Approximate: uses total age-cell frequency
+udd1,68,29842,nowork_nowork,0.7120360878,0.0026212356880075983,Approximate: uses total age-cell frequency
+udd1,69,29091,nowork_nowork,0.7710954538,0.002463212927763735,Approximate: uses total age-cell frequency
+udd1,70,28733,nowork_nowork,0.8070961957,0.002327783363356363,Approximate: uses total age-cell frequency
+udd1,71,28201,nowork_nowork,0.8336716624,0.0022174221883415916,Approximate: uses total age-cell frequency
+udd1,72,27755,nowork_nowork,0.856346256,0.00210529306804352,Approximate: uses total age-cell frequency
+udd1,73,27615,nowork_nowork,0.8718269016,0.0020115973300965846,Approximate: uses total age-cell frequency
+udd1,74,27541,nowork_nowork,0.8887136743,0.001895012070113755,Approximate: uses total age-cell frequency
+udd1,75,27329,nowork_nowork,0.8978180839,0.001832185008002886,Approximate: uses total age-cell frequency
+udd1,76,25186,nowork_nowork,0.9088815183,0.0018133317839947713,Approximate: uses total age-cell frequency
+udd1,77,22442,nowork_nowork,0.9167267113,0.0018443444032827103,Approximate: uses total age-cell frequency
+udd1,78,19392,nowork_nowork,0.9263214736,0.00187603108541212,Approximate: uses total age-cell frequency
+udd1,79,16359,nowork_nowork,0.9325723199,0.00196056837544874,Approximate: uses total age-cell frequency
+udd1,80,13610,nowork_nowork,0.9380829016,0.00206584077643286,Approximate: uses total age-cell frequency
+udd1,81,11239,nowork_nowork,0.9424001673,0.002197679983646345,Approximate: uses total age-cell frequency
+udd1,82,7491,nowork_nowork,0.9497184232,0.0025248290421263082,Approximate: uses total age-cell frequency
+udd1,83,4499,nowork_nowork,0.9532856504,0.0031461446377548307,Approximate: uses total age-cell frequency
+udd1,84,1982,nowork_nowork,0.9549138804,0.004660705990802418,Approximate: uses total age-cell frequency
+udd2,30,1113,nowork_nowork,,,Approximate: uses total age-cell frequency
+udd2,31,2004,nowork_nowork,0.1287878788,0.007482566600521227,Approximate: uses total age-cell frequency
+udd2,32,2718,nowork_nowork,0.1187335092,0.006204625223946221,Approximate: uses total age-cell frequency
+udd2,33,3314,nowork_nowork,0.1213408876,0.005672017216023474,Approximate: uses total age-cell frequency
+udd2,34,3924,nowork_nowork,0.1206313416,0.005199374154287731,Approximate: uses total age-cell frequency
+udd2,35,4527,nowork_nowork,0.1055607917,0.004566899834800155,Approximate: uses total age-cell frequency
+udd2,36,7085,nowork_nowork,0.0864913063,0.003339432298799708,Approximate: uses total age-cell frequency
+udd2,37,9565,nowork_nowork,0.0750794109,0.0026944502208368195,Approximate: uses total age-cell frequency
+udd2,38,12100,nowork_nowork,0.0709879883,0.002334588887607853,Approximate: uses total age-cell frequency
+udd2,39,14860,nowork_nowork,0.0634799559,0.002000172453852502,Approximate: uses total age-cell frequency
+udd2,40,14575,nowork_nowork,0.0614263404,0.0019888737705377356,Approximate: uses total age-cell frequency
+udd2,41,14728,nowork_nowork,0.0630051273,0.002002094931365189,Approximate: uses total age-cell frequency
+udd2,42,15004,nowork_nowork,0.064743917,0.002008913458868686,Approximate: uses total age-cell frequency
+udd2,43,15152,nowork_nowork,0.0671697487,0.0020335422113953246,Approximate: uses total age-cell frequency
+udd2,44,15237,nowork_nowork,0.0701042874,0.0020684245248431586,Approximate: uses total age-cell frequency
+udd2,45,15257,nowork_nowork,0.0697425775,0.002062129787599921,Approximate: uses total age-cell frequency
+udd2,46,15375,nowork_nowork,0.0703670252,0.00206268444499939,Approximate: uses total age-cell frequency
+udd2,47,15578,nowork_nowork,0.0736068977,0.0020921897187931257,Approximate: uses total age-cell frequency
+udd2,48,15708,nowork_nowork,0.0759796113,0.002114116250389689,Approximate: uses total age-cell frequency
+udd2,49,15636,nowork_nowork,0.0801493367,0.0021714298234192754,Approximate: uses total age-cell frequency
+udd2,50,15191,nowork_nowork,0.0859526896,0.0022741593437699496,Approximate: uses total age-cell frequency
+udd2,51,14835,nowork_nowork,0.0882498761,0.002328901884671906,Approximate: uses total age-cell frequency
+udd2,52,14402,nowork_nowork,0.0943667937,0.002435983629675734,Approximate: uses total age-cell frequency
+udd2,53,14078,nowork_nowork,0.1012768935,0.002542714848857234,Approximate: uses total age-cell frequency
+udd2,54,13964,nowork_nowork,0.1025208592,0.0025669261855714286,Approximate: uses total age-cell frequency
+udd2,55,13816,nowork_nowork,0.1038111239,0.002594959347791822,Approximate: uses total age-cell frequency
+udd2,56,13539,nowork_nowork,0.109768197,0.0026865598734383137,Approximate: uses total age-cell frequency
+udd2,57,13004,nowork_nowork,0.1190144119,0.002839525015139663,Approximate: uses total age-cell frequency
+udd2,58,12185,nowork_nowork,0.1250987362,0.0029970446721081147,Approximate: uses total age-cell frequency
+udd2,59,11532,nowork_nowork,0.132777895,0.0031599174877289166,Approximate: uses total age-cell frequency
+udd2,60,11168,nowork_nowork,0.1438356164,0.0033206575886128827,Approximate: uses total age-cell frequency
+udd2,61,10557,nowork_nowork,0.1534755678,0.0035080769588042675,Approximate: uses total age-cell frequency
+udd2,62,10144,nowork_nowork,0.1783066252,0.003800441155720493,Approximate: uses total age-cell frequency
+udd2,63,9703,nowork_nowork,0.2054828974,0.004101913046324413,Approximate: uses total age-cell frequency
+udd2,64,9220,nowork_nowork,0.2471432368,0.004492262054098345,Approximate: uses total age-cell frequency
+udd2,65,8973,nowork_nowork,0.3176855895,0.0049149849871419965,Approximate: uses total age-cell frequency
+udd2,66,8725,nowork_nowork,0.3876143561,0.005215905441568038,Approximate: uses total age-cell frequency
+udd2,67,8583,nowork_nowork,0.4883113112,0.005395500588953602,Approximate: uses total age-cell frequency
+udd2,68,8433,nowork_nowork,0.5817563572,0.005371482844119312,Approximate: uses total age-cell frequency
+udd2,69,8358,nowork_nowork,0.6589055317,0.005185584690775441,Approximate: uses total age-cell frequency
+udd2,70,8294,nowork_nowork,0.7130486712,0.004966857406668842,Approximate: uses total age-cell frequency
+udd2,71,8097,nowork_nowork,0.7424565681,0.00485957955715252,Approximate: uses total age-cell frequency
+udd2,72,8065,nowork_nowork,0.7765562094,0.004638402238996287,Approximate: uses total age-cell frequency
+udd2,73,8060,nowork_nowork,0.8033116682,0.0044275534743753505,Approximate: uses total age-cell frequency
+udd2,74,7998,nowork_nowork,0.8246783444,0.004251766216962111,Approximate: uses total age-cell frequency
+udd2,75,7923,nowork_nowork,0.8455196017,0.004060258670599559,Approximate: uses total age-cell frequency
+udd2,76,7366,nowork_nowork,0.854589372,0.00410734290217898,Approximate: uses total age-cell frequency
+udd2,77,6573,nowork_nowork,0.8703273118,0.004143656508980062,Approximate: uses total age-cell frequency
+udd2,78,5726,nowork_nowork,0.8871001032,0.004182225209401895,Approximate: uses total age-cell frequency
+udd2,79,4695,nowork_nowork,0.9001716949,0.004374936228979593,Approximate: uses total age-cell frequency
+udd2,80,3872,nowork_nowork,0.9081163859,0.004642181497948705,Approximate: uses total age-cell frequency
+udd2,81,3178,nowork_nowork,0.9153817225,0.00493692195915157,Approximate: uses total age-cell frequency
+udd2,82,2067,nowork_nowork,0.9288152121,0.005655721545318253,Approximate: uses total age-cell frequency
+udd2,83,1296,nowork_nowork,0.9369649805,0.006750720458615231,Approximate: uses total age-cell frequency
+udd2,84,578,nowork_nowork,0.9494773519,0.009110064221470343,Approximate: uses total age-cell frequency
+udd3,30,1301,nowork_nowork,,,Approximate: uses total age-cell frequency
+udd3,31,2482,nowork_nowork,0.1496531219,0.007160445816366124,Approximate: uses total age-cell frequency
+udd3,32,3552,nowork_nowork,0.1527638191,0.00603637236205247,Approximate: uses total age-cell frequency
+udd3,33,4342,nowork_nowork,0.1626637555,0.005600804750416533,Approximate: uses total age-cell frequency
+udd3,34,4950,nowork_nowork,0.1607726597,0.005220875184828031,Approximate: uses total age-cell frequency
+udd3,35,5483,nowork_nowork,0.1646153846,0.005008057701271596,Approximate: uses total age-cell frequency
+udd3,36,8619,nowork_nowork,0.1331853496,0.0036598468190699248,Approximate: uses total age-cell frequency
+udd3,37,11739,nowork_nowork,0.1036505087,0.0028132534219481257,Approximate: uses total age-cell frequency
+udd3,38,14733,nowork_nowork,0.0840433085,0.0022858274608797183,Approximate: uses total age-cell frequency
+udd3,39,17853,nowork_nowork,0.0767330227,0.001992045261687922,Approximate: uses total age-cell frequency
+udd3,40,17484,nowork_nowork,0.0755805568,0.001999029394912149,Approximate: uses total age-cell frequency
+udd3,41,16899,nowork_nowork,0.0730657963,0.002001939791166084,Approximate: uses total age-cell frequency
+udd3,42,16541,nowork_nowork,0.0707647776,0.00199384100716828,Approximate: uses total age-cell frequency
+udd3,43,15978,nowork_nowork,0.0662664692,0.0019678735324748604,Approximate: uses total age-cell frequency
+udd3,44,15429,nowork_nowork,0.0651468441,0.001986778724835496,Approximate: uses total age-cell frequency
+udd3,45,15154,nowork_nowork,0.0633979285,0.0019794815098328534,Approximate: uses total age-cell frequency
+udd3,46,14897,nowork_nowork,0.0655222232,0.0020273530855424203,Approximate: uses total age-cell frequency
+udd3,47,14703,nowork_nowork,0.064441789,0.002024958947333335,Approximate: uses total age-cell frequency
+udd3,48,14631,nowork_nowork,0.0609389752,0.001977686622921399,Approximate: uses total age-cell frequency
+udd3,49,14114,nowork_nowork,0.0610734115,0.0020156580261615157,Approximate: uses total age-cell frequency
+udd3,50,13301,nowork_nowork,0.0626318203,0.002100924635351647,Approximate: uses total age-cell frequency
+udd3,51,12629,nowork_nowork,0.064024094,0.002178309440953304,Approximate: uses total age-cell frequency
+udd3,52,11941,nowork_nowork,0.0664802734,0.002279753016664005,Approximate: uses total age-cell frequency
+udd3,53,11340,nowork_nowork,0.0725490196,0.002435873490340107,Approximate: uses total age-cell frequency
+udd3,54,11158,nowork_nowork,0.0751962844,0.0024964897961783986,Approximate: uses total age-cell frequency
+udd3,55,10794,nowork_nowork,0.0765300329,0.0025587987573528394,Approximate: uses total age-cell frequency
+udd3,56,10445,nowork_nowork,0.0799623706,0.0026539418533999895,Approximate: uses total age-cell frequency
+udd3,57,9859,nowork_nowork,0.0841167739,0.0027954061950964037,Approximate: uses total age-cell frequency
+udd3,58,9125,nowork_nowork,0.0892360651,0.002984397597101565,Approximate: uses total age-cell frequency
+udd3,59,8551,nowork_nowork,0.0982436099,0.0032187579350708446,Approximate: uses total age-cell frequency
+udd3,60,8036,nowork_nowork,0.1086125134,0.003470988976714378,Approximate: uses total age-cell frequency
+udd3,61,7489,nowork_nowork,0.1185944363,0.003736010912396594,Approximate: uses total age-cell frequency
+udd3,62,7287,nowork_nowork,0.1322706461,0.003968711204706188,Approximate: uses total age-cell frequency
+udd3,63,7168,nowork_nowork,0.1478947368,0.004192991528889168,Approximate: uses total age-cell frequency
+udd3,64,7025,nowork_nowork,0.1743917599,0.004527170232859886,Approximate: uses total age-cell frequency
+udd3,65,6992,nowork_nowork,0.2134529148,0.004900187498797089,Approximate: uses total age-cell frequency
+udd3,66,6812,nowork_nowork,0.2636596993,0.005338556480942246,Approximate: uses total age-cell frequency
+udd3,67,6754,nowork_nowork,0.3466120625,0.005790643978755939,Approximate: uses total age-cell frequency
+udd3,68,6615,nowork_nowork,0.4347496206,0.006095019688400426,Approximate: uses total age-cell frequency
+udd3,69,6435,nowork_nowork,0.5135553834,0.006230688911922414,Approximate: uses total age-cell frequency
+udd3,70,6337,nowork_nowork,0.5705090696,0.006218224843111251,Approximate: uses total age-cell frequency
+udd3,71,6224,nowork_nowork,0.6164465786,0.006163478165749537,Approximate: uses total age-cell frequency
+udd3,72,6085,nowork_nowork,0.6722620266,0.006017309927707774,Approximate: uses total age-cell frequency
+udd3,73,5938,nowork_nowork,0.7083245964,0.005898559553437816,Approximate: uses total age-cell frequency
+udd3,74,5880,nowork_nowork,0.7445767758,0.005687170798415778,Approximate: uses total age-cell frequency
+udd3,75,5681,nowork_nowork,0.7718993929,0.005567127600814251,Approximate: uses total age-cell frequency
+udd3,76,5187,nowork_nowork,0.7911938266,0.005643583931276957,Approximate: uses total age-cell frequency
+udd3,77,4611,nowork_nowork,0.8089945722,0.005788927321902115,Approximate: uses total age-cell frequency
+udd3,78,4006,nowork_nowork,0.8308933373,0.00592239712035088,Approximate: uses total age-cell frequency
+udd3,79,3348,nowork_nowork,0.8436527153,0.0062767423401554785,Approximate: uses total age-cell frequency
+udd3,80,2785,nowork_nowork,0.8662447257,0.006450051170852696,Approximate: uses total age-cell frequency
+udd3,81,2244,nowork_nowork,0.8922829582,0.0065445845374107565,Approximate: uses total age-cell frequency
+udd3,82,1484,nowork_nowork,0.9066121336,0.007553340098060247,Approximate: uses total age-cell frequency
+udd3,83,933,nowork_nowork,0.9272529859,0.008502876761758524,Approximate: uses total age-cell frequency
+udd3,84,449,nowork_nowork,0.9325842697,0.011833180634888547,Approximate: uses total age-cell frequency
