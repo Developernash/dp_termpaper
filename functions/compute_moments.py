@@ -32,6 +32,17 @@ def compute_simulation_moments(df_sim, start_age, hours_map):
     avg_wealth = grouped["assets_begin_of_period"].mean()
 
     # 8) Transitioner work->work og nowork->nowork
+    # work_work = grouped.apply(
+    #     lambda g: ((g["lagged_choice"] != 0) & (g["choice"] != 0)).mean(),
+    #     include_groups=False,
+    # )   
+    
+    # nowork_nowork = grouped.apply(
+    #     lambda g: ((g["lagged_choice"] == 0) & (g["choice"] == 0)).mean(),
+    #     include_groups=False,
+    # )
+
+    # 8.5) Actual independent transition probabilities, conditional on having the relevant lagged choice
     work_work = grouped.apply(
         lambda g: (
             (g.loc[g["lagged_choice"] != 0, "choice"] != 0).mean()
