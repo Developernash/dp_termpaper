@@ -33,18 +33,27 @@ def compute_simulation_moments(df_sim, start_age, hours_map):
 
     # 8) Transitioner work->work og nowork->nowork
     work_work = grouped.apply(
-        lambda g: ((g["lagged_choice"] != 0) & (g["choice"] != 0)).mean(),
+        lambda g: (
+            (g.loc[g["lagged_choice"] != 0, "choice"] != 0).mean()
+            if (g["lagged_choice"] != 0).any()
+            else np.nan
+        ),
         include_groups=False,
     )
 
     nowork_nowork = grouped.apply(
-        lambda g: ((g["lagged_choice"] == 0) & (g["choice"] == 0)).mean(),
+        lambda g: (
+            (g.loc[g["lagged_choice"] == 0, "choice"] == 0).mean()
+            if (g["lagged_choice"] == 0).any()
+            else np.nan
+        ),
         include_groups=False,
     )
 
     # 9) Betingede momenter for arbejdende
     avg_wage = grouped["wage"].mean()
     avg_hours = df_alive[df_alive["choice"] != 0].groupby("age")["hours_value"].mean()
+    avg_labor_income = df_alive.groupby("age")["labor_income"].mean()
     var_wage = grouped["wage"].var()
     skew_wage = grouped["wage"].skew()
 
@@ -85,9 +94,7 @@ def compute_simulation_moments(df_sim, start_age, hours_map):
             "avg_consumption": avg_consumption,
             "n_individuals": n_individuals,
             "avg_experience": avg_experience,
-            "avg_labor_income": df_alive[df_alive["choice"] != 0]
-            .groupby("age")["labor_income"]
-            .mean(),
+            "avg_labor_income": avg_labor_income
         }
     )
 
