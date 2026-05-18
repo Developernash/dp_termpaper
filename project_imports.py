@@ -15,30 +15,20 @@ from matplotlib.ticker import ScalarFormatter
 import seaborn as sns
 
 #from first_stage estimation
-from first_step.wage import wage_estimation
+from first_stage.wage import wage_estimation
+from first_stage.load_params import load_params_txt
+from first_stage.mortality import prob_survival
 
 #Project imports
-from model_functions_initial.utility import utility_functions
-from model_functions_initial.final_period_utility import final_period_utility
-from model_functions_initial.budget import budget_dcegm_initial
-from model_functions_initial.state_space_functions import create_state_space_function_dict
-from model_functions_initial.compute_moments import compute_simulation_moments
-from model_functions_initial.compute_moments import compute_simulation_moments_with_ci
-from model_functions_initial.estimation import estimate_msm
-
-# Project counterfactuals
-from model_functions_counter.compute_counterfac import compute_counterfactual_diff
-from model_functions_counter.compute_counterfac import compute_diff_by_edu
-from model_functions_counter.compute_counterfac import plot_metrics_individual
-from model_functions_counter.compute_counterfac import plot_counterfactual_diff
-from model_functions_counter.compute_counterfac import plot_cf_diff_separate
-
-from model_functions_counter.budget_counter     import budget_dcegm_counter_oap
+from functions.utility import utility_functions
+from functions.final_period_utility import final_period_utility
+from functions.budget import budget_dcegm_initial
+from functions.state_space_functions import create_state_space_function_dict
+from functions.compute_moments import compute_simulation_moments
+from functions.compute_moments import compute_simulation_moments_with_ci
+from functions.estimation import estimate_msm
 
 from plots.plots import plot_empirical_vs_simulated_with_ci
-
-from first_step.load_params import load_params_txt
-from first_step.mortality import prob_survival
 
 #DC-EGM imports
 import dcegm
