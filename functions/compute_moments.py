@@ -164,12 +164,31 @@ def compute_simulation_moments_with_ci(df_sim, start_age, hours_map):
         cont_vars[name] = var_ser
 
     # 4) transitions etc. (all binary)
+    # ww = g.apply(
+    #     lambda x: ((x["lagged_choice"] != 0) & (x["choice"] != 0)).mean()
+    # ).rename("work_work")
+    # nw = g.apply(
+    #     lambda x: ((x["lagged_choice"] == 0) & (x["choice"] == 0)).mean()
+    # ).rename("nowork_nowork")
+
     ww = g.apply(
-        lambda x: ((x["lagged_choice"] != 0) & (x["choice"] != 0)).mean()
+        lambda g: (
+            (g.loc[g["lagged_choice"] != 0, "choice"] != 0).mean()
+            if (g["lagged_choice"] != 0).any()
+            else np.nan
+        ),
+        include_groups=False,
     ).rename("work_work")
+
     nw = g.apply(
-        lambda x: ((x["lagged_choice"] == 0) & (x["choice"] == 0)).mean()
+        lambda g: (
+            (g.loc[g["lagged_choice"] == 0, "choice"] == 0).mean()
+            if (g["lagged_choice"] == 0).any()
+            else np.nan
+        ),
+        include_groups=False,
     ).rename("nowork_nowork")
+
     var_ww = ww * (1 - ww)
     var_nw = nw * (1 - nw)
 
