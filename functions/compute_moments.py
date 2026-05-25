@@ -32,34 +32,34 @@ def compute_simulation_moments(df_sim, start_age, hours_map):
     avg_wealth = grouped["assets_begin_of_period"].mean()
 
     # 8) Transitioner work->work og nowork->nowork
-    # work_work = grouped.apply(
-    #     lambda g: ((g["lagged_choice"] != 0) & (g["choice"] != 0)).mean(),
-    #     include_groups=False,
-    # )   
+    work_work = grouped.apply(
+        lambda g: ((g["lagged_choice"] != 0) & (g["choice"] != 0)).mean(),
+        include_groups=False,
+    )   
     
-    # nowork_nowork = grouped.apply(
-    #     lambda g: ((g["lagged_choice"] == 0) & (g["choice"] == 0)).mean(),
+    nowork_nowork = grouped.apply(
+        lambda g: ((g["lagged_choice"] == 0) & (g["choice"] == 0)).mean(),
+        include_groups=False,
+    )
+
+    # # 8.5) Actual independent transition probabilities, conditional on having the relevant lagged choice
+    # work_work = grouped.apply(
+    #     lambda g: (
+    #         (g.loc[g["lagged_choice"] != 0, "choice"] != 0).mean()
+    #         if (g["lagged_choice"] != 0).any()
+    #         else np.nan
+    #     ),
     #     include_groups=False,
     # )
 
-    # 8.5) Actual independent transition probabilities, conditional on having the relevant lagged choice
-    work_work = grouped.apply(
-        lambda g: (
-            (g.loc[g["lagged_choice"] != 0, "choice"] != 0).mean()
-            if (g["lagged_choice"] != 0).any()
-            else np.nan
-        ),
-        include_groups=False,
-    )
-
-    nowork_nowork = grouped.apply(
-        lambda g: (
-            (g.loc[g["lagged_choice"] == 0, "choice"] == 0).mean()
-            if (g["lagged_choice"] == 0).any()
-            else np.nan
-        ),
-        include_groups=False,
-    )
+    # nowork_nowork = grouped.apply(
+    #     lambda g: (
+    #         (g.loc[g["lagged_choice"] == 0, "choice"] == 0).mean()
+    #         if (g["lagged_choice"] == 0).any()
+    #         else np.nan
+    #     ),
+    #     include_groups=False,
+    # )
 
     # 9) Betingede momenter for arbejdende
     avg_wage = grouped["wage"].mean()
@@ -132,6 +132,8 @@ def compute_simulation_moments_with_ci(df_sim, start_age, hours_map):
 
     g = df.groupby("age")
     N = g.size().rename("N")  # number of agents at each age
+    N_work_lag = g["lagged_choice"].apply(lambda x: (x != 0).sum()).rename("N_work_lag")
+    N_nowork_lag = g["lagged_choice"].apply(lambda x: (x == 0).sum()).rename("N_nowork_lag")
 
     # 1) prob work
     p_work = g["choice"].apply(lambda x: (x != 0).mean()).rename("prob_work")
@@ -164,29 +166,20 @@ def compute_simulation_moments_with_ci(df_sim, start_age, hours_map):
         cont_vars[name] = var_ser
 
     # 4) transitions etc. (all binary)
-    # ww = g.apply(
-    #     lambda x: ((x["lagged_choice"] != 0) & (x["choice"] != 0)).mean()
-    # ).rename("work_work")
-    # nw = g.apply(
-    #     lambda x: ((x["lagged_choice"] == 0) & (x["choice"] == 0)).mean()
-    # ).rename("nowork_nowork")
-
     ww = g.apply(
-        lambda g: (
-            (g.loc[g["lagged_choice"] != 0, "choice"] != 0).mean()
-            if (g["lagged_choice"] != 0).any()
+        lambda x: (
+            (x.loc[x["lagged_choice"] != 0, "choice"] != 0).mean()
+            if (x["lagged_choice"] != 0).any()
             else np.nan
-        ),
-        include_groups=False,
+        )
     ).rename("work_work")
 
     nw = g.apply(
-        lambda g: (
-            (g.loc[g["lagged_choice"] == 0, "choice"] == 0).mean()
-            if (g["lagged_choice"] == 0).any()
+        lambda x: (
+            (x.loc[x["lagged_choice"] == 0, "choice"] == 0).mean()
+            if (x["lagged_choice"] == 0).any()
             else np.nan
-        ),
-        include_groups=False,
+        )
     ).rename("nowork_nowork")
 
     var_ww = ww * (1 - ww)
@@ -194,15 +187,17 @@ def compute_simulation_moments_with_ci(df_sim, start_age, hours_map):
 
     # 5) put it all in a DataFrame
     df_out = pd.DataFrame(
-        {
-            "N": N,
-            "prob_work": p_work,
-            "work_work": ww,
-            "nowork_nowork": nw,
-            **hours_p,
-            **cont_moms,
-        }
-    )
+    {
+        "N": N,
+        "N_work_lag": N_work_lag,
+        "N_nowork_lag": N_nowork_lag,
+        "prob_work": p_work,
+        "work_work": ww,
+        "nowork_nowork": nw,
+        **hours_p,
+        **cont_moms,
+    }
+)
 
     # 6) compute SE and 95% CI
     z = 1.96
@@ -212,17 +207,13 @@ def compute_simulation_moments_with_ci(df_sim, start_age, hours_map):
     df_out["prob_work_lower"] = df_out["prob_work"] - z * df_out["prob_work_se"]
     df_out["prob_work_upper"] = df_out["prob_work"] + z * df_out["prob_work_se"]
 
-    df_out["work_work_se"] = np.sqrt(var_ww / df_out["N"])
+    df_out["work_work_se"] = np.sqrt(var_ww / df_out["N_work_lag"])
     df_out["work_work_lower"] = df_out["work_work"] - z * df_out["work_work_se"]
     df_out["work_work_upper"] = df_out["work_work"] + z * df_out["work_work_se"]
 
-    df_out["nowork_nowork_se"] = np.sqrt(var_nw / df_out["N"])
-    df_out["nowork_nowork_lower"] = (
-        df_out["nowork_nowork"] - z * df_out["nowork_nowork_se"]
-    )
-    df_out["nowork_nowork_upper"] = (
-        df_out["nowork_nowork"] + z * df_out["nowork_nowork_se"]
-    )
+    df_out["nowork_nowork_se"] = np.sqrt(var_nw / df_out["N_nowork_lag"])
+    df_out["nowork_nowork_lower"] = df_out["nowork_nowork"] - z * df_out["nowork_nowork_se"]
+    df_out["nowork_nowork_upper"] = df_out["nowork_nowork"] + z * df_out["nowork_nowork_se"]
 
     # hours clusters CIs
     for cat in sorted(hours_map):
