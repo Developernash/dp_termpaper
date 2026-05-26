@@ -20,73 +20,22 @@ def  next_period_experience(period, lagged_choice, experience, model_specs):
 
     return next_exp
 
-# def state_specific_choice_set(period, lagged_choice, model_specs):
-#     """Determine the feasible choice set for the current state."""
-
-#     age = (model_specs["start_age"] + period).astype(float)
-
-#     # Retirement is absorbing
-#     if (lagged_choice == 0) and (age > model_specs["retirement_age"]):
-#         return [0]
-#     # If period equal or larger max ret age you have to choose retirement
-#     elif period >= model_specs["max_ret_period"]:
-#         return [0]
-#     # If above minimum retirement period, retirement is possible
-#     else:
-#         return model_specs["choices"]
-
-# def get_state_specific_feasible_choice_set(
-#     lagged_choice: int,
-#     model_specs: Dict,
-#     period: int,
-# ) -> np.ndarray:
-#     """Select state-specific feasible choice set such that retirement is absorbing.
-
-#     Will be a user defined function later.
-
-#     This is very basic in Ishkakov et al (2017).
-
-#     Args:
-#         state (np.ndarray): Array of shape (n_state_variables,) defining the agent's
-#             state. In Ishkakov, an agent's state is defined by her (i) age (i.e. the
-#             current period) and (ii) her lagged labor market choice.
-#             Hence n_state_variables = 2.
-#         map_state_to_state_space_index (np.ndarray): Indexer array that maps
-#             a period-specific state vector to the respective index positions in the
-#             state space.
-#             The shape of this object is quite complicated. For each state variable it
-#             has the number of potential states as rows, i.e.
-#             (n_potential_states_state_var_1, n_potential_states_state_var_2, ....).
-
-#     Returns:
-#         choice_set (np.ndarray): 1d array of length (n_feasible_choices,) with the
-#             agent's (restricted) feasible choice set in the given state.
-
-#     """
-#     age = model_specs["start_age"] + period
-
-#     # Once the agent choses retirement, she can only choose retirement thereafter.
-#     # Hence, retirement is an absorbing state.
-#     if lagged_choice == 0 and (age >= model_specs["retirement_age"]):
-#         feasible_choice_set = jnp.array([0])
-#     else:
-#         feasible_choice_set = model_specs["choices"]
-
-#     return feasible_choice_set
-
-
 def get_state_specific_feasible_choice_set(
     lagged_choice: int,
     model_specs: Dict,
     period: int,
-) -> np.ndarray:
-    # Force everyone into non-work after max retirement age, e.g. age 75
-    if period >= model_specs["max_ret_period"]:
-        return np.array([0], dtype=np.int32)
+) -> jnp.ndarray:
+    return jnp.asarray(model_specs["choices"])
 
-    # Otherwise allow all choices
-    return np.asarray(model_specs["choices"], dtype=np.int32)
+def next_period_deterministic_state(period, choice, model_specs):
+    """Update discrete endogenous states.
 
+    Current choice becomes next period's lagged choice.
+    """
+    return {
+        "period": period + 1,
+        "lagged_choice": choice,
+    }
 
 def sparsity_condition(period, lagged_choice, survival, model_specs):
     """Determine the sparsity condition for the current state."""
@@ -105,7 +54,6 @@ def sparsity_condition(period, lagged_choice, survival, model_specs):
             "survival": survival,
         }
 
-
 def create_state_space_function_dict():
     """Create dictionary with state space functions.
 
@@ -114,7 +62,61 @@ def create_state_space_function_dict():
 
     """
     return {
+        "next_period_deterministic_state": next_period_deterministic_state,
         "next_period_experience": next_period_experience,
         "sparsity_condition": sparsity_condition,
         "state_specific_choice_set": get_state_specific_feasible_choice_set,
     }
+
+
+
+#######################################################################################
+######################### Alternative functions #######################################
+#######################################################################################
+
+# def state_specific_choice_set(period, lagged_choice, model_specs):
+#     """Determine the feasible choice set for the current state."""
+
+#     age = (model_specs["start_age"] + period).astype(float)
+
+#     # Retirement is absorbing
+#     if (lagged_choice == 0) and (age > model_specs["retirement_age"]):
+#         return [0]
+#     # If period equal or larger max ret age you have to choose retirement
+#     elif period >= model_specs["max_ret_period"]:
+#         return [0]
+#     # If above minimum retirement period, retirement is possible
+#     else:
+#         return model_specs["choices"]
+
+# # state_choice_set where retirement is absorbing
+# def get_state_specific_feasible_choice_set(
+#     lagged_choice: int,
+#     model_specs: Dict,
+#     period: int,
+# ) -> np.ndarray:
+
+#     age = model_specs["start_age"] + period
+
+#     # Once the agent choses retirement, she can only choose retirement thereafter.
+#     # Hence, retirement is an absorbing state.
+#     if lagged_choice == 0 and (age >= model_specs["retirement_age"]):
+#         feasible_choice_set = jnp.array([0])
+#     else:
+#         feasible_choice_set = model_specs["choices"]
+
+#     return feasible_choice_set
+
+
+# Alternative: Force retirement after max retirement age, but allow all choices before that.
+# def get_state_specific_feasible_choice_set(
+#     lagged_choice: int,
+#     model_specs: Dict,
+#     period: int,
+# ) -> np.ndarray:
+#     # Force everyone into non-work after max retirement age, e.g. age 75
+#     if period >= model_specs["max_ret_period"]:
+#         return np.array([0], dtype=np.int32)
+
+#     # Otherwise allow all choices
+#     return np.asarray(model_specs["choices"], dtype=np.int32)

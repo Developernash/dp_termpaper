@@ -139,8 +139,8 @@ def inverse_marginal_utility(marginal_utility, params):
 
 
 utility_functions = {
-    # "utility": flow_util,
-    "utility": flow_util_phi,
+    "utility": flow_util,
+    # "utility": flow_util_phi,
     "inverse_marginal_utility": inverse_marginal_utility,
     "marginal_utility": marginal_utility,
 }
