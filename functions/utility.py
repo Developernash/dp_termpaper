@@ -138,8 +138,13 @@ def inverse_marginal_utility(marginal_utility, params):
     return marginal_utility ** (-1 / rho)
 
 
-utility_functions = {
-    # "utility": flow_util,
+old_utility_functions = {
+    "utility": flow_util,
+    "inverse_marginal_utility": inverse_marginal_utility,
+    "marginal_utility": marginal_utility,
+}
+
+new_utility_functions = {
     "utility": flow_util_phi,
     "inverse_marginal_utility": inverse_marginal_utility,
     "marginal_utility": marginal_utility,

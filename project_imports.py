@@ -20,7 +20,8 @@ from first_stage.load_params import load_params_txt
 from first_stage.mortality import prob_survival
 
 #Project imports
-from functions.utility import utility_functions
+from functions.utility import old_utility_functions
+from functions.utility import new_utility_functions
 from functions.final_period_utility import final_period_utility
 from functions.budget import budget_dcegm_initial
 from functions.state_space_functions import create_state_space_function_dict
