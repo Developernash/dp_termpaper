@@ -13,6 +13,7 @@ import jax.numpy as jnp
 import matplotlib.pyplot as plt
 from matplotlib.ticker import ScalarFormatter
 import seaborn as sns
+import math
 
 #from first_stage estimation
 from first_stage.wage import wage_estimation
@@ -29,6 +30,7 @@ from functions.compute_moments import compute_simulation_moments
 from functions.compute_moments import compute_simulation_moments_with_ci
 
 from plots.plots import plot_empirical_vs_simulated_with_ci
+from plots.plots import plot_empirical_vs_simulated_with_ci_grid
 
 #DC-EGM imports
 import dcegm
