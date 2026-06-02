@@ -40,7 +40,7 @@ def plot_empirical_vs_simulated_with_ci(
         "hours_3": (0, 0.3),
         "hours_4": (0, 1),
         "avg_wage": (0, 500),
-    },
+    }
 
 
     if var_labels is None:
